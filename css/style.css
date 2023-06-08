@@ -748,13 +748,13 @@ h3 {
   margin: 0 10px;
 }
 .header-area .main-header-area .main-menu ul li a {
-  color: #727272;
+  color: #000000;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;
   padding: 0px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: "arial", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1060,11 +1060,11 @@ h3 {
     width: 100%;
   }
 }
-.welcome_docmed_area .welcome_thumb .thumb_2 {
+/* .welcome_docmed_area .welcome_thumb .thumb_2 {
   position: absolute;
   bottom: -94px;
   right: -37px;
-}
+} */
 @media (max-width: 767px) {
   .welcome_docmed_area .welcome_thumb .thumb_2 {
     position: absolute;
