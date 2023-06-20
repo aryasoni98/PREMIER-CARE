@@ -1073,7 +1073,7 @@ h3 {
   }
 }
 .welcome_docmed_area .welcome_thumb .thumb_2 {
-  position: absolute;
+  /* position: absolute; */
   bottom: -94px;
   right: -37px;
 }
