@@ -123,7 +123,7 @@ label {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .mb-65 {
@@ -208,7 +208,6 @@ h3 {
 .bradcam_overlay {
   position: relative;
   z-index: 0;
-  height: 300px;
 }
 
 .bradcam_overlay::before {
@@ -749,13 +748,13 @@ h3 {
   margin: 0 10px;
 }
 .header-area .main-header-area .main-menu ul li a {
-  color: #000000;
+  color: #727272;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;
   padding: 0px 0px 0px 0px;
-  font-family: "arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -963,12 +962,24 @@ h3 {
   }
 }
 
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  align-items: start;
+  margin-top: 1rem;
+}
+
 .slider_bg_1 {
-  background-image: url(../img/img/1-1.png);
+  background-image: url(../img/banner/banner.png);
 }
 
 .slider_bg_2 {
-  background-image: url(../img/img/1-1.png);
+  background-image: url(../img/banner/banner2.png);
 }
 
 .slider_area .single_slider {
@@ -985,7 +996,7 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #1F1F1F;
   font-family: "Poppins", sans-serif;
-  font-size: 55px;
+  font-size: 70px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 300;
@@ -1061,11 +1072,11 @@ h3 {
     width: 100%;
   }
 }
-/* .welcome_docmed_area .welcome_thumb .thumb_2 {
+.welcome_docmed_area .welcome_thumb .thumb_2 {
   position: absolute;
   bottom: -94px;
   right: -37px;
-} */
+}
 @media (max-width: 767px) {
   .welcome_docmed_area .welcome_thumb .thumb_2 {
     position: absolute;
@@ -1139,7 +1150,7 @@ h3 {
 }
 .welcome_docmed_area .welcome_docmed_info p {
   font-size: 16px;
-  color: #000000;
+  color: #727272;
   line-height: 28px;
 }
 .welcome_docmed_area .welcome_docmed_info ul {

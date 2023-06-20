@@ -326,3 +326,16 @@
   text-align: center;
   display: none;
 }
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  align-items: start;
+  margin-top: 1rem;
+
+}
