@@ -2021,8 +2021,8 @@ h3 {
 
 .our_department_area {
   background: #F5FBFF;
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 .our_department_area .single_department {
   background: #fff;
@@ -4646,3 +4646,7 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
+
+img {
+  max-height: 70vh;
+}
