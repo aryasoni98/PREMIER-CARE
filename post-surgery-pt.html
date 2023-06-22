@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/flaticon_zigo.css">
+    <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+
+    <title>Premier Care</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.webp">
+</head>
+
+<body>
+
+    <!--  Preloader Start -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!--  Preloader End -->
+
+    <!-- Theme Switcher Start -->
+    <div class="switch-theme-mode">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Theme Switcher End -->
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area header-one" id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                    <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                </a>
+                <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button"
+                    aria-controls="navbarOffcanvas">
+                    <span class="burger-menu">
+                        <span class="top-bar"></span>
+                        <span class="middle-bar"></span>
+                        <span class="bottom-bar"></span>
+                    </span>
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Why us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="team.html" class="nav-link">
+                                        Our Team
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="testimonials.html" class="nav-link">
+                                        Testimonials
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="what-we-treat.html" class="nav-link">
+                                What We Treat
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="post-surgery-pt.html" class="nav-link">
+                                Post-Surgery PT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="free-screening.html" class="nav-link">
+                                Free Screening
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="insurance.html" class="nav-link">
+                                Insurance
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="others-option d-flex align-items-center">
+                        <div class="option-item">
+                            <a href="appointment.html" class="btn-two">Request An Appointment</a>
+                        </div>
+                        <!-- <div class="option-item">
+                                <a class="sidebar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                                    <img src="assets/img/icons/sidebar-menu.svg" alt="Image">
+                                </a>
+                            </div> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Start Responsive Navbar Area -->
+    <div class="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo d-inline-block">
+                <img class="logo-light" src="assets/img/logo.webp" alt="logo">
+                <img class="logo-dark" src="assets/img/logo-white.webp" alt="logo">
+            </a>
+            <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="navbarAccordion">
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="index.html">
+                        Home
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="about.html">
+                        About Us
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="what-we-treat.html">
+                        What We Treat
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="post-surgery-pt.html">
+                        Post-Surgery PT
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="free-screening.html">
+                        Free Screening
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="insurance.html">
+                        Insurance
+                    </a>
+                </div>
+            </div>
+
+            <div class="accordion offcanvas-contact-info" id="navbarAccordion">
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="blog-right-sidebar.html">
+                        Articles & Video
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="blog-details-no-sidebar.html">
+                        Patient Free Workshop
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="#">
+                        Careers
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon"
+                        href="https://test.premiercaretherapy.com/index.html#:~:text=Contact%20Us-,Shop,-Book%20Appointment">
+                        Shop
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon" href="appointment.html">
+                        Book Appointment
+                    </a>
+                </div>
+                <div class="accordion-item">
+                    <a class="accordion-button without-icon"
+                        href="https://test.premiercaretherapy.com/index.html#:~:text=Book%20Appointment-,Patient%20Portal,-Home">
+                        Patient Portal
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="offcanvas-contact-info">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="ri-map-pin-fill"></i>
+                            <p>2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</p>
+                        </li>
+                        <li>
+                            <i class="ri-mail-fill"></i>
+                            <a href="mailto:info@premiercaretherapy.com">info@premiercaretherapy.com</a>
+                        </li>
+                        <li>
+                            <i class="ri-phone-fill"></i>
+                            <a href="tel:732-272-0083">732-272-0083</a>
+                        </li>
+                    </ul>
+                    <ul class="social-profile list-style">
+                        <li><a href="https://www.fb.com" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-fill"></i></a></li>
+                    </ul>
+                </div> -->
+            <div class="others-option d-flex d-lg-none align-items-center">
+                <div class="option-item">
+                    <a href="appointment.html" class="btn-two">Request An Appointment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Search Modal -->
+    <div class="modal fade searchModal" id="searchModal" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <input type="text" class="form-control" placeholder="Search here....">
+                    <button type="submit"><i class="fi fi-rr-search"></i></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="ri-close-line"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Search Modal -->
+
+    <!-- Breadcrumb Section Start -->
+    <div class="breadcrumb-wrap">
+        <img src="assets/img/br-shape-1.webp" alt="Image" class="br-shape-one moveHorizontal">
+        <img src="assets/img/br-shape-2.webp" alt="Image" class="br-shape-two animationFramesTwo">
+        <div class="breadcrumb-content">
+            <h2>Experience Un-Matched Expertise</h2><br>
+            <h4>Recovery from a surgery can be intimidating.<br> Our highly skilled Doctors of Physical Therapy will
+                make the road to your recovery as smooth as possible. <br> We will get you back to a Pain Free, Happy
+                and Active Lifestyle.</h4><br>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Service Details Start -->
+    <div class="service-details-wrap ptb-100">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-xl-8 col-lg-12 col-md-12 col-12  order-xl-2 order-lg-1 order-md-1 order-1">
+                    <div class="service-desc">
+                        <div class="single-img">
+                            <img src="assets/img/post-surgical.jpeg" alt="Image">
+                        </div>
+                        <h1>Procedures That Benefit from Post Surgical Physical Therapy</h1>
+
+                        
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span>
+                                            <i class="ri-add-line plus"></i>
+                                            <i class="ri-subtract-line minus"></i>
+                                        </span>
+                                        What is Post-Surgical Physical Therapy?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>After surgery, bones, muscles and soft tissues undergo a period of healing. This can limit range of motion, flexibility and function of the joint, affecting the success of your surgery. Post-Surgical Physical Therapy is critical to restore full mobility and strengthen your joints & muscles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span>
+                                            <i class="ri-add-line plus"></i>
+                                            <i class="ri-subtract-line minus"></i>
+                                        </span>
+                                        Why do I need Post-Surgical Physical Therapy?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Our Physical Therapists are movement experts, who can help you achieve below
+                                            goals after any surgery:<br>
+                                            - Reduce your pain and swelling • Restore normal joint movement<br>
+                                            - Strengthen your muscles • Improve blood circulation<br>
+                                            - Perform daily activities such as walking, sitting, standing, etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span>
+                                            <i class="ri-add-line plus"></i>
+                                            <i class="ri-subtract-line minus"></i>
+                                        </span>
+                                        What can I expect with Post-Surgical Physical Therapy?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Post-Surgical Physical Therapy is often divided into phases. After a thorough
+                                            assessment, our Physical Therapist will coordinate with your surgeon to
+                                            fully understand the surgical procedure & any protocols that need to be
+                                            followed.<br>
+                                            The first phase comes immediately after surgery when you can expect to have
+                                            pain, swelling and inflammation. Then comes a series of progressively
+                                            challenging exercises to restore the range of motion, stability, and
+                                            strength. The final phase is to return you to the pre-injury.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span>
+                                            <i class="ri-add-line plus"></i>
+                                            <i class="ri-subtract-line minus"></i>
+                                        </span>
+                                        What Treatment Techniques are used?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Our Physical Therapists will design a personalized treatment plan for you.
+                                            Post-operative Therapy treatments may include:<br>
+                                            - Soft Tissue Release for pain, spasms and swelling<br>
+                                            - Game Ready® active compression and cold therapy<br>
+                                            - Manual therapy techniques</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span>
+                                            <i class="ri-add-line plus"></i>
+                                            <i class="ri-subtract-line minus"></i>
+                                        </span>
+                                        Do You Accept Health Insurance?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>We accept PPO/POS plans for most insurance companies. Although most insurance
+                                            companies cover physical therapy, what they cover varies greatly. Please
+                                            call us or complete below form so we can verify your specific plan benefits.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Details End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-wrap">
+        <div class="footer-top">
+            <img src="assets/img/footer-shape-1.webp" alt="Image" class="footer-shape-one md-none">
+            <img src="assets/img/footer-shape-2.webp" alt="Image" class="footer-shape-two md-none">
+            <div class="container">
+                <div class="row pt-100 pb-75">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <a href="index.html" class="footer-logo">
+                                <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                                <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                            </a>
+                            <p class="comp-desc">There are many variations of passages of
+                                Lorem Ipsum available, but majority suffered alteration in some form, by injected
+                                humour, orandomised words which don't look</p>
+                            <ul class="social-profile list-style">
+                                <li>
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="ri-twitter-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="ri-linkedin-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com" target="_blank">
+                                        <i class="ri-instagram-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Quick Links</h3>
+                            <ul class="footer-menu list-style">
+                                <li>
+                                    <a href="about.html">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="terms-conditions.html">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html">
+                                        Our Team
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-sm-6 ps-xl-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Services</h3>
+                            <ul class="footer-menu list-style">
+                                <li>
+                                    <a href="services-one.html">Physiotherapy</a>
+                                </li>
+                                <li>
+                                    <a href="services-one.html">Diagnostics</a>
+                                </li>
+                                <li>
+                                    <a href="services-one.html">Manual Therapy</a>
+                                </li>
+                                <li>
+                                    <a href="services-one.html">Massage Therapy</a>
+                                </li>
+                                <li>
+                                    <a href="services-one.html">Rehabilitation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 ps-xl-5">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Contact Info</h3>
+                            <ul class="contact-info list-style">
+                                <li>
+                                    <span>
+                                        <i class="ri-phone-fill"></i>
+                                    </span>
+                                    <a href="tel:8002162020">+1 732-272-0083</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="ri-mail-fill"></i>
+                                    </span>
+                                    <a href="mailto:hello@zigo.com">info@premiercaretherapy.com</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="ri-map-pin-2-fill"></i>
+                                    </span>
+                                    <p>2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright-text"><i class="ri-copyright-line"></i><span>Zigo</span> is proudly owned by <a
+                href="https://hibootstrap.com/">HiBootstrap</a></p>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Back to Top -->
+    <button type="button" id="backtotop" class="position-fixed text-center border-0 p-0">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <!-- Modal HTML -->
+    <div class="modal fade" id="quickview-modal" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="quickview-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="ri-close-line"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="video-popup">
+                        <iframe width="885" height="498" src="https://www.youtube.com/embed/3FjT7etqxt8"
+                            title="How to Design an Elvis Movie Poster in Photoshop" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link of JS files -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

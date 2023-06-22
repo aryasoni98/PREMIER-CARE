@@ -1,811 +1,956 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Link of CSS files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_zigo.css">
+        <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/dark-theme.css">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Premier Care</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Premier Care</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.webp">
+    </head>
+    <body>
 
-  <!-- <link rel="manifest" href="site.webmanifest"> -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <!-- CSS here -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/themify-icons.css">
-  <link rel="stylesheet" href="css/nice-select.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/gijgo.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/slicknav.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-</head>
-
-<body>
-
-  <!-- header-start -->
-  <header>
-    <div class="header-area">
-      <div class="header-top_area">
-        <div class="container">
-          <div class="row">
-            <div>
-              <div class="short_contact_list">
-                <ul>
-                  <li><a href="blog.html">Articles & Video</a></li>
-                  <li><a href="patient-free workshop.html">Patient Free Workshop</a></li>
-                  <!-- <li><a href="#">Patient Survey</a></li> -->
-                  <li><a href="career.html">Careers</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="https://henoportal.com/ords/f?p=783:9999:::NO::P1_PORTAL_ID:291ELXTQE2N3">Shop</a></li>
-                  <li><a href="#">Book Appointment</a></li>
-                  <li><a href="https://henoportal.com/ords/f?p=783:9999:::NO::P1_PORTAL_ID:291ELXTQE2N3">Patient
-                      Portal</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <!--  Preloader Start -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
         </div>
-      </div>
-      <div id="sticky-header" class="main-header-area">
-        <div class="container">
-          <div class="row flexcontainer">
-            <div class="">
-              <div class="logo">
-                <a href="index.html">
-                  <img src="img/logo.avif" alt="Logo" width="220" height="70" />
-                </a>
-              </div>
-            </div>
-            <div class="">
-              <div class="main-menu d-none d-lg-block">
-                <nav>
-                  <ul id="navigation">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li>
-                      <a href="#">Why Us <i class="ti-angle-down"></i></a>
-                      <ul class="submenu">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="our-team.html">Our Team</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                      </ul>
-                    </li>
-                    <!-- <li>
-                        <a href="#"
-                          >Specialties <i class="ti-angle-down"></i
-                        ></a>
-                        <ul class="submenu">
-                          <li><a href="#">Specialties 1</a></li>
-                          <li><a href="#">Specialties 2</a></li>
+        <!--  Preloader End -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area header-one" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                        <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                    <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                        <span class="burger-menu">
+                            <span class="top-bar"></span>
+                            <span class="middle-bar"></span>
+                            <span class="bottom-bar"></span>
+                        </span>
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="nav-link active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                    Why us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="about.html" class="nav-link">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="team.html" class="nav-link">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="testimonials.html" class="nav-link">
+                                            Testimonials
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="what-we-treat.html" class="nav-link">
+                                    What We Treat                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="post-surgery-pt.html" class="nav-link">
+                                    Post-Surgery PT                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="free-screening.html" class="nav-link">
+                                    Free Screening                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="insurance.html" class="nav-link">
+                                    Insurance                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    Contact
+                                </a>
+                            </li>
                         </ul>
-                      </li> -->
-                    <li><a href="what-we-treat.html">What We Treat</a></li>
-                    <li><a href="post-surgery.html">Post-Surgery PT</a></li>
-                    <li><a href="free-screening.html">Free Screening</a></li>
-                    <li><a href="insurance.html">Insurance</a></li>
-
-                    <div class="toggleview" style="margin-bottom: 1rem">
-                      <div class="dividerline"></div>
-                      <ul>
-
-                        <li><a href="blog.html">Articles & Video</a></li>
-                        <li><a href="patient-free workshop.html">Patient Free Workshop</a></li>
-                        <!-- <li><a href="#">Patient Survey</a></li> -->
-                        <li><a href="career.html">Careers</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="https://henoportal.com/ords/f?p=783:9999:::NO::P1_PORTAL_ID:291ELXTQE2N3">Shop</a>
-                        </li>
-                        <li><a href="#">Book Appointment</a></li>
-                        <li><a href="https://henoportal.com/ords/f?p=783:9999:::NO::P1_PORTAL_ID:291ELXTQE2N3">Patient
-                            Portal</a></li>
-                      </ul>
-
-                      <div class="button-container">
-                      <div class="Appointment">
-                        <div class="book_btn d-lg-block">
-                          <a class="popup-with-form" href="#test-form">Request An Appointment</a>
+                        <div class="others-option d-flex align-items-center">
+                            <div class="option-item">
+                                <a href="appointment.html" class="btn-two">Request An Appointment</a>
+                            </div>
+                            <!-- <div class="option-item">
+                                <a class="sidebar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                                    <img src="assets/img/icons/sidebar-menu.svg" alt="Image">
+                                </a>
+                            </div> -->
                         </div>
-                      </div>
-                      </div>
-
                     </div>
-                  </ul>
                 </nav>
-              </div>
             </div>
-            <div class="d-none d-lg-block">
-              <div class="Appointment">
-                <div class="book_btn d-none d-lg-block">
-                  <a class="popup-with-form" href="#test-form">Request An Appointment</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="mobile_menu d-block d-lg-none"></div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <!-- header-end -->
+        <!-- End Navbar Area -->
 
-  <!-- bradcam_area_start  -->
-  <div class="bradcam_area breadcam_bg bradcam_overlay">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="bradcam_text">
-            <h3>About Us</h3>
-            <!-- <p><a href="index.html">Home /</a> About</p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- bradcam_area_end  -->
-
-  <div class="business_expert_area">
-    <div class="business_tabs_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <ul class="nav" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                  aria-selected="true">About Us</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                  aria-controls="profile" aria-selected="false">Our Team</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                  aria-controls="contact" aria-selected="false">Testimonials</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="border_bottom">
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="welcome_docmed_area">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_thumb">
-                      <div class="thumb_1">
-                        <img src="img/img/1.jpeg" alt="">
-                      </div>
-
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_docmed_info">
-                      <h2>Welcome to Premier Care Experience Unmatched Expertise</h2>
-                      <h3>Best Care For Your <br>
-                        Good Health</h3>
-                      <p>
-                        Conveniently located on Oak Tree Road in Edison, Premier Care Physical Therapy & Rehabilitation
-                        is
-                        <b style='color:rgb(0, 0, 0) !important;'>operated by Paramjit (PJ) a Board-Certified Clinical
-                          Specialist in Orthopedic Physical Therapy, a
-                          prestigious certification earned only by 5% of Physical Therapist in USA.</b><br>
-                        <br>Our clinic strive on providing exceptional one-one-one personalized care to each one of our
-                        patient
-                        which you may not find easily in other physical therapy clinics. Our highly skilled &
-                        experienced
-                        therapist
-                        focus on <b style='color:rgb(0, 0, 0) !important;'>accurate diagnosis</b> of the problem which
-                        prevent wasting precious time on the wrong course
-                        of treatment and thus <b style='color:rgb(0, 0, 0) !important;'>ensure speedy recovery</b> of
-                        all our patients.<br>
-                        <br>At Premier Care Physical Therapy & Rehabilitation, our ultimate goal is to optimize physical
-                        function,
-                        promote well-being, and help individuals regain their highest level of independence and quality
-                        of life
-                        through evidence-based interventions and <b style='color:rgb(0, 0, 0) !important;'>compassionate
-                          care</b>.
-                      </p>
-                      <!-- <ul>
-                                    <li> <i class="flaticon-right"></i> Apartments frequently or motionless. </li>
-                                    <li> <i class="flaticon-right"></i> Duis aute irure dolor in reprehenderit in voluptate.</li>
-                                    <li> <i class="flaticon-right"></i> Voluptatem quia voluptas sit aspernatur. </li>
-                                </ul> -->
-                      <!-- <a href="#" class="boxed-btn3-white-2">Learn More</a> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <!-- expert_doctors_area_start -->
-            <div class="expert_doctors_area">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-12">
-                    <div class="doctors_title mb-55">
-                      <h3>Expert Doctors</h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xl-12">
-                    <div class="expert_active owl-carousel">
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/1.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/2.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/3.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/4.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/1.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                      <div class="single_expert">
-                        <div class="expert_thumb">
-                          <img src="img/experts/2.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                          <h3>Mirazul Alom</h3>
-                          <span>Neurologist</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- expert_doctors_area_end -->
-          </div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <div class="testmonial_area">
-              <div class="testmonial_active owl-carousel">
-                <div class="single-testmonial testmonial_bg_1 overlay2">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-xl-10 offset-xl-1">
-                        <div class="testmonial_info text-center">
-                          <div class="quote">
-                            <i class="flaticon-straight-quotes"></i>
-                          </div>
-                          <p>
-                            Paramjit is very caring, extremely professional, and very effective. My mother was suffering
-                            from chronic shooting pains in her right shoulder, but ever since visiting this physical
-                            therapist she’s been seeing significant improvement in only a few sessions. She’s very happy
-                            with the service she’s received here, and is looking forward to continuing her therapy so
-                            that she can improve further. PJ’s sweet and patient nature has made all the difference.
-                          </p>
-                          <div class="testmonial_author">
-                            <h4>Shabnum Gulati</h4>
-                          </div>
-                        </div>
-                        <div class="testmonial_info text-center">
-                          <div class="quote">
-                            <i class="flaticon-straight-quotes"></i>
-                          </div>
-                          <p>
-                            Paramjit is the, kindest and sweetest professional I have ever met. She treats my daughter
-                            Mia with absolute gentle care and is considerate of her Achilles injury. So thankful for
-                            her. I recommend her 100 time.
-                            Thank you Paramjit !
-                          </p>
-                          <div class="testmonial_author">
-                            <h4>Martine Pinkney</h4>
-                          </div>
-                        </div>
-                        <div class="testmonial_info text-center">
-                          <div class="quote">
-                            <i class="flaticon-straight-quotes"></i>
-                          </div>
-                          <p>
-                            I am glad I came here. Has helped me a lot with my cervical pains. I was in terrible pain
-                            for almost 2 months. Still have a long way to go but after just 3 sessions I feel so much
-                            better.. I feel so light in my neck and shoulder. PT has magic in her hands.. She definitely
-                            knows well what she's doing. She's very sweet, patient and kind. Amazing experience. God
-                            bless her. Highly recommend the place.
-                          </p>
-                          <div class="testmonial_author">
-                            <h4>Swathi Srivathsan</h4>
-                          </div>
-                        </div>
-                        <div class="testmonial_info text-center">
-                          <div class="quote">
-                            <i class="flaticon-straight-quotes"></i>
-                          </div>
-                          <p>
-                            HUGE SHOUT OUT TO PARAMJIT (PJ)! She was my father and mother's home physical therapist. Her
-                            home therapy took the stress off of them and me because I did not need to drive to a
-                            facility for their care. It gave all of us peace of mind knowing that my parents could
-                            receive exceptional care right in the comfort of our home. PJ is extremely patient and very
-                            thorough with the physical needs of her patients. She will challenge but not force her
-                            patients to complete their necessary physical therapy requirements. I will always reach out
-                            to her for physical therapy for my family and I will always recommend her to anyone who is
-                            in need of a physical therapist. She is exceptional. </p>
-                          <div class="testmonial_author">
-                            <h4>Sue Olcsvary</h4>
-                          </div>
-                        </div>
-                        <div class="testmonial_info text-center">
-                          <div class="quote">
-                            <i class="flaticon-straight-quotes"></i>
-                          </div>
-                          <p>
-                            PJ is amazing!! She was my Physical Therapist about two years ago. She’s very professional
-                            and knowledgeable and helped me tremendously after a difficult surgery. I highly recommend
-                            her!
-                          <div class="testmonial_author">
-                            <h4>Robert Prachar</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- welcome_docmed_area_start -->
-  <!-- <div class="welcome_docmed_area">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_thumb">
-            <div class="thumb_1">
-              <img src="img/img/1.jpeg" alt="">
-            </div>
-            <div class="thumb_2">
-              <img src="img/img/2.jpeg" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_docmed_info">
-            <h2>Welcome to Premier Care</h2>
-            <h3>Best Care For Your <br>
-              Good Health</h3>
-            <p>
-              Conveniently located on Oak Tree Road in Edison, Premier Care Physical Therapy & Rehabilitation is
-              <b  style='color:rgb(0, 0, 0) !important;'>operated by Paramjit (PJ) a Board-Certified Clinical Specialist in Orthopedic Physical Therapy, a
-                prestigious certification earned only by 5% of Physical Therapist in USA.</b><br>
-              <br>Our clinic strive on providing exceptional one-one-one personalized care to each one of our patient
-              which you may not find easily in other physical therapy clinics. Our highly skilled & experienced
-              therapist
-              focus on <b  style='color:rgb(0, 0, 0) !important;'>accurate diagnosis</b> of the problem which prevent wasting precious time on the wrong course
-              of treatment and thus <b  style='color:rgb(0, 0, 0) !important;'>ensure speedy recovery</b> of all our patients.<br>
-              <br>At Premier Care Physical Therapy & Rehabilitation, our ultimate goal is to optimize physical function,
-              promote well-being, and help individuals regain their highest level of independence and quality of life
-              through evidence-based interventions and <b  style='color:rgb(0, 0, 0) !important;'>compassionate care</b>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- welcome_docmed_area_end -->
-
-  <!-- testmonial_area_start -->
-  <!-- <div class="testmonial_area">
-    <div class="testmonial_active owl-carousel">
-      <div class="single-testmonial testmonial_bg_1 overlay2">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-10 offset-xl-1">
-              <div class="testmonial_info text-center">
-                <div class="quote">
-                  <i class="flaticon-straight-quotes"></i>
-                </div>
-                <p>Magician! One word is enough. I have been to numerous therapists and doctors but no one could
-                  diagnose
-                  the actual root cause but Param was the one who not only diagnosed the cause but worked hard on me to
-                  get better.
-                  I highly recommend her to anyone who is looking for answers to their physical health issues." </p>
-                <div class="testmonial_author">
-                  <h4>Umang Jain</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- testmonial_area_end -->
-
-  <!-- Mission Section -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-10 offset-xl-1">
-        <div class="testmonial_info text-center">
-          <h1>Mission Statement</h1><br>
-          <h4><i>Empower individuals to live their best lives by providing exceptional, patient-centered care and
-              innovative physical therapy services.</i></h4>
-          <div class="testmonial_author">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <space></space>
-
-  <div class="welcome_docmed_area">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_thumb">
-            <div class="thumb_2">
-              <img src="img/img/2.jpeg" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_docmed_info">
-            <h3>
-              Our Philosophy
-            </h3>
-            <p>
-              Our philosophy behind the <b style='color:rgb(0, 0, 0) !important;'>Personalized Care</b>
-              that we strive for grew from knowing that
-              <b style='color:rgb(0, 0, 0) !important;'>every person is
-                an individual</b> and needs customized & tailored treatment plan for their specific case, we
-              believe this is
-              the best way to ensure our patients receive the
-              <b style='color:rgb(0, 0, 0) !important;'>long-term relief</b> they deserve. Our focus is
-              on finding
-              results that last so that you can get back to life. And this starts by identifying what is the best course
-              forward for you, <b style='color:rgb(0, 0, 0) !important;'>specifically</b>.<br>
-              Anyone who has been struggling with <b style='color:rgb(0, 0, 0) !important;'>chronic
-                pain</b>
-              for years knows <b style='color:rgb(0, 0, 0) !important;'>finding long-term relief can truly
-                be an uphill battle</b>, often they don’t find a long term solution without risk of invasive
-              surgery or reliance
-              on prescription pain medications. If this sounds like you, then <b style='color:rgb(0, 0, 0) !important;'>
-                it’s time to rethink your options and
-                your approach</b>.
-            </p>
-            <!-- <ul>
-                <li>
-                  <i class="flaticon-right"></i> Apartments frequently or
-                  motionless.
-                </li>
-                <li>
-                  <i class="flaticon-right"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate.
-                </li>
-                <li>
-                  <i class="flaticon-right"></i> Voluptatem quia voluptas sit
-                  aspernatur.
-                </li>
-              </ul> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="welcome_docmed_area">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_docmed_info">
-            <h3>
-              Patient Education
-            </h3>
-            <p>
-              The other area we really focus on is <b style='color:rgb(0, 0, 0) !important;'>
-                empowering our patients</b> to become more aware of their condition
-              or illness by <b style='color:rgb(0, 0, 0) !important;'>
-                Patient Education</b>. Examples of Patient education include home exercise programs,
-
-              ergonomics instruction, body mechanics training and injury prevention. Patient Education also enables
-              patients to make right choices and help them take charge of their own health.
-            </p>
-            <!-- <ul>
-                <li>
-                  <i class="flaticon-right"></i> Apartments frequently or
-                  motionless.
-                </li>
-                <li>
-                  <i class="flaticon-right"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate.
-                </li>
-                <li>
-                  <i class="flaticon-right"></i> Voluptatem quia voluptas sit
-                  aspernatur.
-                </li>
-              </ul> -->
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="welcome_thumb">
-            <div class="thumb_1">
-              <img src="img/img/4.jpeg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Emergency_contact start -->
-  <div class="Emergency_contact">
-    <div class="conatiner-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-xl-6">
-          <div class="single_emergency d-flex align-items-center justify-content-center emergency_bg_1 overlay_skyblue">
-            <div class="info">
-              <h3>For Any Emergency Contact</h3>
-              <p>Esteem spirit temper too say adieus.</p>
-            </div>
-            <div class="info_button">
-              <a href="#" class="boxed-btn3-white">+10 378 4673 467</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6">
-          <div class="single_emergency d-flex align-items-center justify-content-center emergency_bg_2 overlay_skyblue">
-            <div class="info">
-              <h3>Make an Online Appointment</h3>
-              <p>Esteem spirit temper too say adieus.</p>
-            </div>
-            <div class="info_button">
-              <a href="#" class="boxed-btn3-white">Request An Appointment</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Emergency_contact end -->
-
-  <!-- footer start -->
-  <footer class="footer">
-    <div class="footer_top">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="footer_widget">
-              <div class="footer_logo">
-                <a href="#">
-                  <img src="img/logo.avif" alt="Logo" width="220" height="70" />
+        <!-- Start Responsive Navbar Area -->
+        <div class="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
+            <div class="offcanvas-header">
+                 <a href="index.html" class="logo d-inline-block">
+                    <img class="logo-light" src="assets/img/logo.webp" alt="logo">
+                    <img class="logo-dark" src="assets/img/logo-white.webp" alt="logo">
                 </a>
-              </div>
-              <p>
-                Conveniently located on Oak Tree Road in Edison, Premier Care Physical Therapy & Rehabilitation is
-                operated by Paramjit (PJ) a Board-Certified Clinical Specialist in Orthopedic Physical Therapy, a
-                prestigious certification earned only by 5% of Physical Therapist in USA.
-              </p>
-              <div class="socail_links">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i class="ti-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ti-twitter-alt"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="ri-close-line"></i>
+                </button>
             </div>
-          </div>
-          <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
-            <div class="footer_widget">
-              <h3 class="footer_title">Departments</h3>
-              <ul>
-
-                <li><a href="blog.html">Articles & Video</a></li>
-                <!-- <li><a href="#">Patient Survey</a></li> -->
-                <li><a href="career.html">Careers</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
+            <div class="offcanvas-body">
+                <div class="accordion" id="navbarAccordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Home
+                        </button>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion2">
+                                    <div class="accordion-item">
+                                        <a class="accordion-link" href="index.html">
+                                            Home Demo One
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a class="accordion-link" href="index-2.html">
+                                            Home Demo Two
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a class="accordion-link" href="index-3.html">
+                                            Home Demo Three
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a class="accordion-link" href="index-4.html">
+                                            Home Demo Four
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a class="accordion-link" href="index-5.html">
+                                            Home Demo Five
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed active" type="button" data-bs-toggle="collapse" data-bs-target="#collapZigour" aria-expanded="false" aria-controls="collapZigour">
+                            Pages
+                        </button>
+                        <div id="collapZigour" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion45">
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne20" aria-expanded="false" aria-controls="collapseOne20">
+                                            Shop
+                                        </button>
+                                        <div id="collapseOne20" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion45">
+                                            <div class="accordion-body">
+                                                <div class="accordion" id="navbarAccordion46">
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="shop-grid.html">
+                                                           Shop Grid
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="shop-left-sidebar.html">
+                                                            Shop Left Sidebar
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="shop-right-sidebar.html">
+                                                            Shop Right Sidebar
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="shop-single.html">
+                                                            Shop Details
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="cart.html">
+                                                           Cart
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="wishlist.html">
+                                                           Wishlist
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="checkout.html">
+                                                            Checkout
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="my-account.html">
+                                                            My Account
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a class="accordion-link active" href="about.html">
+                                            About Us
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="team.html" class="accordion-link">
+                                            Team
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="pricing-plan.html" class="accordion-link">
+                                            Pricing Plan
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="testimonials.html" class="accordion-link">
+                                            Testimonials
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="faq.html" class="accordion-link">
+                                            FAQ
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="appointment.html" class="accordion-link">
+                                            Book Appointment
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="privacy-policy.html" class="accordion-link">
+                                            Privacy Policy
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="terms-conditions.html" class="accordion-link">
+                                            Terms & Conditions
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="error-404.html" class="accordion-link">
+                                            404 Error Page
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Services
+                        </button>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion7">
+                                    <div class="accordion-item">
+                                        <a href="services-one.html" class="accordion-link">
+                                            Service Style One
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="services-two.html" class="accordion-link">
+                                            Service Style Two
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="post-surgery-pt.html" class="accordion-link">
+                                            Service Details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Projects
+                        </button>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="what-we-treat.html" class="accordion-link">
+                                            Projects
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="free-screening.html" class="accordion-link">
+                                            Project Details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Blog
+                        </button>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion5">
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                            Blog Layout
+                                        </button>
+                                        <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion3">
+                                            <div class="accordion-body">
+                                                <div class="accordion" id="navbarAccordion3">
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-no-sidebar.html">
+                                                            Blog Grid
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-left-sidebar.html">
+                                                            Blog Left Sidebar
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-right-sidebar.html">
+                                                            Blog Right Sidebar
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+                                            Single Blog Layout
+                                        </button>
+                                        <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion4">
+                                            <div class="accordion-body">
+                                                <div class="accordion" id="navbarAccordion4">
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-details-no-sidebar.html">
+                                                            Blog Details Without Sidebar
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-details-left-sidebar.html">
+                                                            Blog Details Left Sidebar 
+                                                        </a>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a class="accordion-link" href="blog-details-right-sidebar.html">
+                                                            Blog Details Right Sidebar 
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="contact.html">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+                <div class="offcanvas-contact-info">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="ri-map-pin-fill"></i>
+                            <p>28/A Street, New York, USA</p>
+                        </li>
+                        <li>
+                            <i class="ri-mail-fill"></i>
+                            <a href="mailto:hello@zigo.com">hello@zigo.com</a>
+                        </li>
+                        <li>
+                            <i class="ri-phone-fill"></i>
+                            <a href="tel:1800123456789">+1 800 123 456 789</a>
+                        </li>
+                    </ul>
+                    <ul class="social-profile list-style">
+                        <li><a href="https://www.fb.com" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-fill"></i></a></li>
+                    </ul>
+                </div>
+                <div class="others-option d-flex d-lg-none align-items-center">
+                    <div class="option-item">
+                        <a href="appointment.html" class="btn-two">Book Appointment</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-xl-2 col-md-6 col-lg-2">
-            <div class="footer_widget">
-              <h3 class="footer_title">Useful Links</h3>
-              <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="what-we-treat.html">Post-Surgery </a></li>
-                <li><a href="post-surgery.html">Post-Surgery PT</a></li>
-                <li><a href="free-screening.html">Free Screening</a></li>
-                <li><a href="insurance.html">Insurance</a></li>
-                <li><a href="https://henoportal.com/ords/f?p=783:9999:::NO::P1_PORTAL_ID:291ELXTQE2N3">Shop</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6 col-lg-3">
-            <div class="footer_widget">
-              <h3 class="footer_title">Address</h3>
-              <p>
-                2163 Oak Tree Road, Suite# 108 Edison, NJ 08820 <br />
-                732-272-0083 <br />
-                info@premiercaretherapy.com
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="copy-right_text">
-      <div class="container">
-        <div class="footer_border"></div>
-        <div class="row">
-          <div class="col-xl-12">
-            <p class="copy_right text-center">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              All rights reserved | Premier Care
-              <i class="fa fa-heart-o" aria-hidden="true"></i> by
-              <a href="https://aryasoni.tech" target="_blank">Arya Soni</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
+        
+        <!-- Breadcrumb Section Start -->
+        <div class="breadcrumb-wrap">
+            <img src="assets/img/br-shape-1.webp" alt="Image" class="br-shape-one moveHorizontal">
+            <img src="assets/img/br-shape-2.webp" alt="Image" class="br-shape-two animationFramesTwo">
+                <div class="breadcrumb-content">
+                    <h2>About Us</h2>
+                    <ul class="breadcrumb-menu list-style">
+                        <li><a href="index.html">Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- footer end  -->
-  <!-- link that opens popup -->
+        <!-- Breadcrumb Section End -->
 
-  <!-- form itself end-->
-  <form id="test-form" class="white-popup-block mfp-hide">
-    <div class="popup_box ">
-      <div class="popup_inner">
-        <h3>Request An Appointment</h3>
-        <form action="#">
-          <div class="row">
-            <div class="col-xl-6">
-              <input id="datepicker" placeholder="Pick date">
+        <!-- About Section Start -->
+        <div class="about-wrap-two ptb-100">
+            <img src="assets/img/about/about-shape-4.webp" alt="Image" class="about-shape-one">
+            <div class="container">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img-wrap">
+                            <div class="about-img">
+                                <img src="assets/img/about/about-img-2.webp" alt="Image">
+                            </div>
+                            <div class="about-img">
+                                <img src="assets/img/about/about-shape-3.webp" alt="Image" class="about-img-shape">
+                                <img src="assets/img/about/about-img-3.webp" alt="Image">
+                            </div>
+                            <div class="circle-text">
+                                <span>25</span>
+                                <svg class="rotate" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                                    <defs>
+                                        <path id="circlePath_eight" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                                    </defs>
+                                    <circle cx="150" cy="150" r="75" fill="none"/>
+                                    <g>
+                                        <use xlink:href="#circlePath_eight" fill="none"/>
+                                        <text fill="#0C0078">
+                                            <textPath xlink:href="#circlePath_eight">Year Of Experience Years Of Experience</textPath>
+                                        </text>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="content-title-one">
+                                <span>About Premier Care Experience Unmatched Expertise</span>
+                                <h2>Experience Un-Matched Expertise</h2>
+                                <p>
+                                    Conveniently located on Oak Tree Road in Edison, Premier Care Physical Therapy & Rehabilitation
+                                    is
+                                    <b style='color:rgb(0, 0, 0) !important;'>operated by Paramjit (PJ) a Board-Certified Clinical
+                                      Specialist in Orthopedic Physical Therapy, a
+                                      prestigious certification earned only by 5% of Physical Therapist in USA.</b><br>
+                                    <br>Our clinic strive on providing exceptional one-one-one personalized care to each one of our
+                                    patient
+                                    which you may not find easily in other physical therapy clinics. Our highly skilled &
+                                    experienced
+                                    therapist
+                                    focus on <b style='color:rgb(0, 0, 0) !important;'>accurate diagnosis</b> of the problem which
+                                    prevent wasting precious time on the wrong course
+                                    of treatment and thus <b style='color:rgb(0, 0, 0) !important;'>ensure speedy recovery</b> of
+                                    all our patients.<br>
+                                    <br>At Premier Care Physical Therapy & Rehabilitation, our ultimate goal is to optimize physical
+                                    function,
+                                    promote well-being, and help individuals regain their highest level of independence and quality
+                                    of life
+                                    through evidence-based interventions and <b style='color:rgb(0, 0, 0) !important;'>compassionate
+                                      care</b>.
+                                  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-6">
-              <input id="datepicker2" placeholder="Suitable time">
+        </div>
+        <!-- About Section End -->
+        
+        <!-- Feature Card Section Start -->
+        <!-- <div class="feature-card-wrap-two bg_ash">
+            <div class="container pt-100 pb-75">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="feature-card">
+                            <span class="feature-counter">01</span>
+                            <span class="feature-icon">
+                                <i class="flaticon-team"></i>
+                            </span>
+                            <h3>Expert Therapists</h3>
+                            <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures, to generate which look</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="feature-card">
+                            <span class="feature-counter">02</span>
+                            <span class="feature-icon">
+                                <i class="flaticon-24-hours"></i>
+                            </span>
+                            <h3>Emergency Service</h3>
+                            <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures, to generate which look</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="feature-card">
+                            <span class="feature-counter">03</span>
+                            <span class="feature-icon">
+                                <i class="flaticon-conversation"></i>
+                            </span>
+                            <h3>Free Consultation</h3>
+                            <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures, to generate which look</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-6">
-              <select class="form-select wide" id="default-select" class="">
-                <option data-display="Select Department">Department</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-              </select>
-            </div>
-            <div class="col-xl-6">
-              <select class="form-select wide" id="default-select" class="">
-                <option data-display="Doctors">Doctors</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-              </select>
-            </div>
-            <div class="col-xl-6">
-              <input type="text" placeholder="Name">
-            </div>
-            <div class="col-xl-6">
-              <input type="text" placeholder="Phone no.">
-            </div>
-            <div class="col-xl-12">
-              <input type="email" placeholder="Email">
-            </div>
-            <div class="col-xl-12">
-              <button type="submit" class="boxed-btn3">Confirm</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </form>
-  <!-- form itself end -->
+        </div> -->
+        <!-- Feature Card Section End -->
 
-  <!-- JS here -->
-  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-  <script src="js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/ajax-form.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/scrollIt.js"></script>
-  <script src="js/jquery.scrollUp.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/nice-select.min.js"></script>
-  <script src="js/jquery.slicknav.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/gijgo.min.js"></script>
-  <!--contact js-->
-  <script src="js/contact.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/jquery.form.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/mail-script.js"></script>
+        <!-- Moving Text Start -->
+        <div class="move-text-one">
+            <ul class="list-style">
+                <li>100+ New Clients Every Month</li>
+                <li>15+ Successful Years</li>
+                <li>10+ Clinics Around The Nation</li>
+                <li>30+ Friendly Staff</li>
+            </ul>
+        </div>
+        <!-- Moving Text End -->
 
-  <script src="js/main.js"></script>
-  <script>
-    $('#datepicker').datepicker({
-      iconsLibrary: 'fontawesome',
-      icons: {
-        rightIcon: '<span class="fa fa-caret-down"></span>'
-      }
-    });
-    $('#datepicker2').datepicker({
-      iconsLibrary: 'fontawesome',
-      icons: {
-        rightIcon: '<span class="fa fa-caret-down"></span>'
-      }
+        <!-- Team Section Start -->
+        <!-- <div class="team-wrap">
+            <img src="assets/img/team/team-shape-3.webp" alt="Image" class="team-shape-one">
+            <img src="assets/img/team/team-shape-4.webp" alt="Image" class="team-shape-two">
+            <div class="container pt-100 pb-75">
+                <div class="row">
+                    <div class="col-xxl-6 offset-xxl-3 col-xl-8 offset-xl-2 col-lg-8 offset-lg-3">
+                        <div class="section-title-one text-center mb-30">
+                            <span>Our Team</span>
+                            <h2>Physiotherapy Services From Professionals Therapists</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-card-one">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-1.webp" alt="Image">
+                            </div>
+                            <h3>Buford Fitzgerald</h3>
+                            <span>Director</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-card-one">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-2.webp" alt="Image">
+                            </div>
+                            <h3>Gregory Harrison</h3>
+                            <span>Senior Therapist</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-card-one">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-3.webp" alt="Image">
+                            </div>
+                            <h3>Linwood Crane</h3>
+                            <span>Chief Physician</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-card-one">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-4.webp" alt="Image">
+                            </div>
+                            <h3>Keven Freeman</h3>
+                            <span>Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Team Section End -->
 
-    });
-    $(document).ready(function () {
-      $('.js-example-basic-multiple').select2();
-    });
-  </script>
-</body>
+        <!-- Testimonial Section Start -->
+        <!-- <div class="testimonial-wrap-two bg-f ptb-100">
+            <div class="container">
+                <div class="swiper testimonial-slider-two">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-two">
+                                <img src="assets/img/icons/quote-icon-5.svg" alt="Image" class="quote-icon">
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <ul class="rating list-style">
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                        </ul>
+                                        <p class="client-quote">“If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedhe first true generaton the Internet. It uses a dictionary of over 200 Latin words, combined with a handful”</p>
+                                        <div class="client-info">
+                                            <h4>Sheldon Hinton</h4>
+                                            <span>Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-two">
+                                <img src="assets/img/icons/quote-icon-5.svg" alt="Image" class="quote-icon">
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <ul class="rating list-style">
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                        </ul>
+                                        <p class="client-quote">“If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedhe first true generaton the Internet. It uses a dictionary of over 200 Latin words, combined with a handful”</p>
+                                        <div class="client-info">
+                                            <h4>Mark Henry</h4>
+                                            <span>Physician</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-two">
+                                <img src="assets/img/icons/quote-icon-5.svg" alt="Image" class="quote-icon">
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <ul class="rating list-style">
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                        </ul>
+                                        <p class="client-quote">“If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedhe first true generaton the Internet. It uses a dictionary of over 200 Latin words, combined with a handful”</p>
+                                        <div class="client-info">
+                                            <h4>Luis Archer</h4>
+                                            <span>Teacher</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-two">
+                                <img src="assets/img/icons/quote-icon-5.svg" alt="Image" class="quote-icon">
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <ul class="rating list-style">
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                        </ul>
+                                        <p class="client-quote">“If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedhe first true generaton the Internet. It uses a dictionary of over 200 Latin words, combined with a handful”</p>
+                                        <div class="client-info">
+                                            <h4>Nicolas Cage</h4>
+                                            <span>Actor & Model</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-btn">
+                <div class="testimonial-button-prev"><img src="assets/img/icons/left-arrow.svg" alt="Image"></div>
+                <div class="testimonial-button-next"><img src="assets/img/icons/right-arrow.svg" alt="Image"></div>
+            </div>
+        </div> -->
+        <!-- Testimonial Section End -->
 
+        <div class="breadcrumb-wrap">
+            <img src="assets/img/br-shape-1.webp" alt="Image" class="br-shape-one moveHorizontal">
+            <img src="assets/img/br-shape-2.webp" alt="Image" class="br-shape-two animationFramesTwo">
+                <div class="breadcrumb-content">
+                    <h2>Mission Statement</h2>
+                    <h4>"Empower individuals to live their best lives by providing exceptional, <br>patient-centered care and innovative physical therapy services"</h4><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us Section Start -->
+        <div class="wh-wrap-three ptb-100">
+            <img src="assets/img/about/wh-shape-3.webp" alt="Image" class="wh-shape-one">
+            <div class="container">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="wh-content">
+                            <div class="content-title-one">
+                                <span>Experience Un-Matched Expertise</span>
+                                <h2>Our Philosophy</h2>
+                                <p>
+                                    Our philosophy behind the <b style='color:rgb(0, 0, 0) !important;'>Personalized Care</b>
+                                    that we strive for grew from knowing that
+                                    <b style='color:rgb(0, 0, 0) !important;'>every person is
+                                      an individual</b> and needs customized & tailored treatment plan for their specific case, we
+                                    believe this is
+                                    the best way to ensure our patients receive the
+                                    <b style='color:rgb(0, 0, 0) !important;'>long-term relief</b> they deserve. Our focus is
+                                    on finding
+                                    results that last so that you can get back to life. And this starts by identifying what is the best course
+                                    forward for you, <b style='color:rgb(0, 0, 0) !important;'>specifically</b>.<br>
+                                    Anyone who has been struggling with <b style='color:rgb(0, 0, 0) !important;'>chronic
+                                      pain</b>
+                                    for years knows <b style='color:rgb(0, 0, 0) !important;'>finding long-term relief can truly
+                                      be an uphill battle</b>, often they don’t find a long term solution without risk of invasive
+                                    surgery or reliance
+                                    on prescription pain medications. If this sounds like you, then <b style='color:rgb(0, 0, 0) !important;'>
+                                      it’s time to rethink your options and
+                                      your approach</b>.
+                                  </p>                            
+                                </div>
+                        </div>
+                    </div>   
+                    <div class="col-lg-6">
+                        <div class="wh-img-wrap">
+                            <img src="assets/img/about/wh-shape-4.webp" alt="Image" class="wh-img-shape">
+                            <div class="wh-img">
+                                <img src="assets/img/about/wh-img-1.webp" alt="Image">
+                            </div>
+                            <div class="wh-img">
+                                <img src="assets/img/about/wh-img-2.webp" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose Us Section Start -->
+
+                <!-- Why Choose Us Section Start -->
+                <div class="wh-wrap-three ptb-100">
+                    <img src="assets/img/about/wh-shape-3.webp" alt="Image" class="wh-shape-one">
+                    <div class="container">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-6">
+                                <div class="wh-content">
+                                    <div class="content-title-one">
+                                        <span>Experience Un-Matched Expertise</span>
+                                        <h2>Patient Education</h2>
+                                        <p>
+                                            The other area we really focus on is <b style='color:rgb(0, 0, 0) !important;'>
+                                              empowering our patients</b> to become more aware of their condition
+                                            or illness by <b style='color:rgb(0, 0, 0) !important;'>
+                                              Patient Education</b>. Examples of Patient education include home exercise programs,
+                              
+                                            ergonomics instruction, body mechanics training and injury prevention. Patient Education also enables
+                                            patients to make right choices and help them take charge of their own health.
+                                          </p>                            
+                                    </div>
+                                </div>
+                            </div>   
+                            <div class="col-lg-6">
+                                <div class="wh-img-wrap">
+                                    <img src="assets/img/about/wh-shape-4.webp" alt="Image" class="wh-img-shape">
+                                    <div class="wh-img">
+                                        <img src="assets/img/about/wh-img-1.webp" alt="Image">
+                                    </div>
+                                    <div class="wh-img">
+                                        <img src="assets/img/about/wh-img-2.webp" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Why Choose Us Section Start -->
+
+        <!-- Footer Section Start -->
+        <footer class="footer-wrap">
+            <div class="footer-top">
+                <img src="assets/img/footer-shape-1.webp" alt="Image" class="footer-shape-one md-none">
+                <img src="assets/img/footer-shape-2.webp" alt="Image" class="footer-shape-two md-none">
+                <div class="container">
+                    <div class="row pt-100 pb-75">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <a href="index.html" class="footer-logo">
+                        <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                        <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <p class="comp-desc">There are many variations of passages of 
+                                    Lorem Ipsum available, but majority suffered alteration in some form, by injected humour, orandomised words which don't look</p>
+                                <ul class="social-profile list-style">
+                                    <li>
+                                        <a href="https://facebook.com" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com" target="_blank">
+                                            <i class="ri-twitter-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Quick Links</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="about.html">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-conditions.html">
+                                            Terms & Conditions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-sm-6 ps-xl-4">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Services</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="services-one.html">Physiotherapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Diagnostics</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Manual Therapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Massage Therapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Rehabilitation</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 ps-xl-5">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Contact Info</h3>
+                                <ul class="contact-info list-style">
+                                    <li>
+                                        <span>
+                                            <i class="ri-phone-fill"></i>
+                                        </span>
+                                        <a href="tel:8002162020">+1 732-272-0083</a>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="ri-mail-fill"></i>
+                                        </span>
+                                        <a href="mailto:hello@zigo.com">info@premiercaretherapy.com</a>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="ri-map-pin-2-fill"></i>
+                                        </span>
+                                        <p>2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright-text"><i class="ri-copyright-line"></i><span>Zigo</span> is proudly owned by <a href="https://hibootstrap.com/">HiBootstrap</a></p>
+        </footer>
+        <!-- Footer Section End -->
+        
+        <!-- Back to Top -->
+        <button type="button" id="backtotop" class="position-fixed text-center border-0 p-0">
+            <i class="ri-arrow-up-line"></i>
+        </button>
+
+       <!-- Modal HTML -->
+        <div class="modal fade" id="quickview-modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="quickview-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <div class="modal-body">
+                       <div class="video-popup">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/3FjT7etqxt8" title="How to Design an Elvis Movie Poster in Photoshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Link of JS files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper.bundle.min.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

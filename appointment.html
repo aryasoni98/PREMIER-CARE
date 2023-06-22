@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Link of CSS files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_zigo.css">
+        <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/dark-theme.css">
+
+        <title>Premier Care</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.webp">
+    </head>
+    <body>
+
+        <!--  Preloader Start -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!--  Preloader End -->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area header-one" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                        <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                    <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                        <span class="burger-menu">
+                            <span class="top-bar"></span>
+                            <span class="middle-bar"></span>
+                            <span class="bottom-bar"></span>
+                        </span>
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="nav-link active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                    Why us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="about.html" class="nav-link">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="team.html" class="nav-link">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="testimonials.html" class="nav-link">
+                                            Testimonials
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="what-we-treat.html" class="nav-link">
+                                    What We Treat                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="post-surgery-pt.html" class="nav-link">
+                                    Post-Surgery PT                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="free-screening.html" class="nav-link">
+                                    Free Screening                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="insurance.html" class="nav-link">
+                                    Insurance                                
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="others-option d-flex align-items-center">
+                            <div class="option-item">
+                                <a href="appointment.html" class="btn-two">Request An Appointment</a>
+                            </div>
+                            <!-- <div class="option-item">
+                                <a class="sidebar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                                    <img src="assets/img/icons/sidebar-menu.svg" alt="Image">
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!-- Start Responsive Navbar Area -->
+        <div class="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
+            <div class="offcanvas-header">
+                <a href="index.html" class="logo d-inline-block">
+                    <img class="logo-light" src="assets/img/logo.webp" alt="logo">
+                    <img class="logo-dark" src="assets/img/logo-white.webp" alt="logo">
+                </a>
+                <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="accordion" id="navbarAccordion">
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="index.html">
+                            Home
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="about.html">
+                            About Us
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="what-we-treat.html">
+                            What We Treat
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="post-surgery-pt.html">
+                            Post-Surgery PT
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="free-screening.html">
+                            Free Screening 
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="insurance.html">
+                            Insurance
+                        </a>
+                    </div>
+                </div>
+
+                <div class="accordion offcanvas-contact-info" id="navbarAccordion">
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="blog-right-sidebar.html">
+                            Articles & Video
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="blog-details-no-sidebar.html">
+                            Patient Free Workshop
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="#">
+                            Careers
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="https://test.premiercaretherapy.com/index.html#:~:text=Contact%20Us-,Shop,-Book%20Appointment">
+                            Shop
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="appointment.html">
+                            Book Appointment
+                        </a>
+                    </div>
+                    <div class="accordion-item">
+                        <a class="accordion-button without-icon" href="https://test.premiercaretherapy.com/index.html#:~:text=Book%20Appointment-,Patient%20Portal,-Home">
+                            Patient Portal
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="offcanvas-contact-info">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="ri-map-pin-fill"></i>
+                            <p>2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</p>
+                        </li>
+                        <li>
+                            <i class="ri-mail-fill"></i>
+                            <a href="mailto:info@premiercaretherapy.com">info@premiercaretherapy.com</a>
+                        </li>
+                        <li>
+                            <i class="ri-phone-fill"></i>
+                            <a href="tel:732-272-0083">732-272-0083</a>
+                        </li>
+                    </ul>
+                    <ul class="social-profile list-style">
+                        <li><a href="https://www.fb.com" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-fill"></i></a></li>
+                    </ul>
+                </div> -->
+                <div class="others-option d-flex d-lg-none align-items-center">
+                    <div class="option-item">
+                        <a href="appointment.html" class="btn-two">Request An Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Start Search Modal -->
+        <div class="modal fade searchModal" id="searchModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                     <form>
+                        <input type="text" class="form-control" placeholder="Search here....">
+                        <button type="submit"><i class="fi fi-rr-search"></i></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="ri-close-line"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Search Modal -->
+
+        <!-- Breadcrumb Section Start -->
+        <div class="breadcrumb-wrap">
+            <img src="assets/img/br-shape-1.webp" alt="Image" class="br-shape-one moveHorizontal">
+            <img src="assets/img/br-shape-2.webp" alt="Image" class="br-shape-two animationFramesTwo">
+                <div class="breadcrumb-content">
+                    <h2>Experience Un-Matched Expertise</h2>
+                    <h4>Board-Certified Clinical Specialist Orthopedic Physical Therapist at Your Service</h4><br>
+                    <h6>Conveniently located on Oak Tree Road in Edison</p>
+                    <!-- <ul class="breadcrumb-menu list-style">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Appointmnet</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb Section End -->
+
+        <!-- Appointment Section Start -->
+        <div class="container ptb-100">
+            <div class="row gx-5">
+                <div class="col-xl-10 offset-xl-1">
+                    <form action="#" id="appointment-form">
+                        <h5 class="mb-30">CALL US OR COMPLETE BELOW FORM TO SCHEDULE AN APPOINTMENT</h5>
+                        <h6 class="breadcrumb-content">We respect your privacy and share your conatact information</p><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Body Part/Condition">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Preferred Day/Time For Appointment">
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <div class="form-group">
+                                    <select>
+                                        <option value="0" data-display="Your Gender">Your Gender</option>
+                                        <option value="1">Male</option>
+                                        <option value="2">FeMale</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="date" placeholder="Date Of Birth">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="How Did You First hear About Us?">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select>
+                                        <option value="0" data-display="Your Gender">Location</option>
+                                        <option value="1">2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</option>
+                                        <!-- <option value="2">Physical Health</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- <div class="form-group">
+                                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div> -->
+                                <button type="submit" class="btn-one">Make Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment Section End -->
+        
+        <!-- Footer Section Start -->
+        <footer class="footer-wrap">
+            <div class="footer-top">
+                <img src="assets/img/footer-shape-1.webp" alt="Image" class="footer-shape-one md-none">
+                <img src="assets/img/footer-shape-2.webp" alt="Image" class="footer-shape-two md-none">
+                <div class="container">
+                    <div class="row pt-100 pb-75">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <a href="index.html" class="footer-logo">
+                        <img class="logo-light" src="assets/img/logo.svg" alt="logo">
+                        <img class="logo-dark" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <p class="comp-desc">There are many variations of passages of 
+                                    Lorem Ipsum available, but majority suffered alteration in some form, by injected humour, orandomised words which don't look</p>
+                                <ul class="social-profile list-style">
+                                    <li>
+                                        <a href="https://facebook.com" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com" target="_blank">
+                                            <i class="ri-twitter-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Quick Links</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="about.html">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-conditions.html">
+                                            Terms & Conditions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-sm-6 ps-xl-4">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Services</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="services-one.html">Physiotherapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Diagnostics</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Manual Therapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Massage Therapy</a>
+                                    </li>
+                                    <li>
+                                        <a href="services-one.html">Rehabilitation</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 ps-xl-5">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Contact Info</h3>
+                                <ul class="contact-info list-style">
+                                    <li>
+                                        <span>
+                                            <i class="ri-phone-fill"></i>
+                                        </span>
+                                        <a href="tel:8002162020">+1 732-272-0083</a>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="ri-mail-fill"></i>
+                                        </span>
+                                        <a href="mailto:hello@zigo.com">info@premiercaretherapy.com</a>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="ri-map-pin-2-fill"></i>
+                                        </span>
+                                        <p>2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright-text"><i class="ri-copyright-line"></i><span>Zigo</span> is proudly owned by <a href="https://hibootstrap.com/">HiBootstrap</a></p>
+        </footer>
+        <!-- Footer Section End -->
+        
+        <!-- Back to Top -->
+        <button type="button" id="backtotop" class="position-fixed text-center border-0 p-0">
+            <i class="ri-arrow-up-line"></i>
+        </button>
+
+       <!-- Modal HTML -->
+        <div class="modal fade" id="quickview-modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="quickview-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <div class="modal-body">
+                       <div class="video-popup">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/3FjT7etqxt8" title="How to Design an Elvis Movie Poster in Photoshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Link of JS files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper.bundle.min.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
