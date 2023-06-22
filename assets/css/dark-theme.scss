@@ -1,0 +1,645 @@
+/*-------------------------------
+    Dark Theme  CSS
+-------------------------------*/
+:root {
+    --aztechColor:#02272F;
+    --codColor: #222;
+    --darkColor: #000;
+    --grayColor: #f7f7f7;
+}
+.switch-theme-mode{
+    position: fixed;
+    top: 200px;
+    right: 15px;
+    z-index: 99;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    &.round {
+        border-radius: 50%;
+        &:before{
+            border-radius: 50%;
+        }
+    }
+    &:before {
+        position: absolute;
+        content: "";
+        height: 35px;
+        width: 35px;
+        left: 0px;
+        bottom: 4px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        box-shadow: 0 0px 15px #2020203d;
+        background: white url('../img/sunny.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color:var(--aztechColor);
+        background-size: 17px;
+    }
+}
+.navbar-area .navbar,
+input:checked + .slider {
+  background-color: transparent;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px  transparent;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  background: white url('../img/night.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+
+}
+/*---------------------------------
+    Color CSS For Elements 
+-----------------------------------*/
+.theme-light {
+    .navbar-brand{
+        .logo-dark{
+            display: none!important;
+        }
+        .logo-light{
+            display: block!important;
+        }
+    }
+    .footer-logo{
+        .logo-dark{
+            display: none!important;
+        }
+        .logo-light{
+            display: block!important;
+        }
+    }
+    .logo{
+        .logo-dark{
+            display: none!important;
+        }
+        .logo-light{
+            display: block!important;
+        }
+    }
+}
+
+.theme-dark {
+    .navbar-brand{
+        .logo-light{
+            display: none!important;
+        }
+        .logo-dark{
+            display: block!important;
+        }
+    }
+    .footer-logo{
+        .logo-dark{
+            display: block!important;
+        }
+        .logo-light{
+            display: none!important;
+        }
+    }
+    .logo{
+        .logo-dark{
+            display: block!important;
+        }
+        .logo-light{
+            display: none!important;
+        }
+    }
+    .bg_ash,
+    .bg_two,
+    .pricing-card,
+    .navbar-area.header-one.sticky,
+    .navbar-area.header-three.sticky,
+    .navbar-area.header-two.sticky,
+    .about-wrap-one::after,
+    .breadcrumb-wrap,
+    .login-form-wrap,
+    .hero-wrap.hero-one .hero-slide-item .hero-content::after,
+    .hero-wrap.hero-one .hero-slide-item .hero-content .hero-bg-shape-one,
+    .hero-wrap.hero-one .hero-slide-item .hero-content .hero-bg-shape-two,
+    .hero-wrap.hero-one .hero-slide-item .hero-content .hero-bg-shape-three,
+    .hero-wrap.hero-one .hero-slide-item .hero-content,
+    .checkout-wrap,
+    .bg_gray {
+        background-color: var(--codColor)!important;
+    }
+    body,
+    .td_dark,
+    .footer-wrap,
+    .help-card,
+    .comp-map-area::after,
+    .service-wrap-three,
+    .hero-wrap.hero-three,
+    .hero-gallery-wrap,
+    .checkout-details .bill-item-wrap, .checkout-details-two .bill-item-wrap,
+    .bg-white{
+        background-color: var(--darkColor)!important;
+    }
+    .td_aztec,
+    .blog-card-one .blog-title .blog-date,
+    .testimonial-card-one,
+    .testimonial-card-four,
+    .feature-card .feature-icon,
+    .responsive-navbar,
+    .hero-promo-box,
+    .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu,
+    .help-wrap-two .help-content .help-card,
+    .help-wrap-two .help-content .help-card span,
+    .process-card,
+    #appointment-form,
+    .faq-form,
+    .cart-total,
+    .hero-doc-card,
+    .pricing-card .pricing-tag,
+    .project-details-wrap .client-quote,
+    .service-card-two, .service-card-three,
+    .about-wrap-two .about-content .features-list li,
+    .about-wrap-two .about-content .features-list li span,
+    .wh-wrap-three .wh-content .wh-card-wrap .wh-card,
+    .about-wrap-three .about-content .counter-wrap,
+    .contact-item-wrap .contact-item,
+    .cart-table table thead tr,
+    .wh-card-one{
+        background-color: var(--aztechColor)!important;
+    }
+    .responsive-navbar .offcanvas-body .contact-info li p, .responsive-navbar .offcanvas-body .contact-info li a{
+        color: var(--paraColor)!important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    h3 a,
+    .checkout-details .bill-item b, .checkout-details .bill-item-footer b, .checkout-details .bill-item-title b, .checkout-details-two .bill-item b, .checkout-details-two .bill-item-footer b, .checkout-details-two .bill-item-title b,
+    .responsive-navbar .offcanvas-body .contact-info li i,
+    .navbar-area .navbar .others-option .option-item .search-btn i,
+    .header-wrap.header-two .navbar .navbar-nav .nav-item a,
+    .header-wrap.header-three .header-bottom .navbar .navbar-nav .nav-item a,
+    .cart-table table thead tr th,
+    .cart-total .cart-total-wrap .cart-total-item p b, .cart-total .cart-total-wrap .cart-total-item span b,
+    .cart-table table tbody tr td,
+    .single-product-details .product-more-option-item span, .single-product-details .product-more-option-item a,
+    article p strong, article p b, .terms-wrap p strong, .terms-wrap p b{
+        color: var(--whiteColor)!important;
+    }
+    .checkout-details .bill-item::after, .checkout-details .bill-item-title::after, .checkout-details .bill-item-footer::after, .checkout-details-two .bill-item::after, .checkout-details-two .bill-item-title::after, .checkout-details-two .bill-item-footer::after {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .footer-wrap{
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .cart-table table tbody tr td{
+        background-color: transparent;
+    }
+    p,span,
+    .contact-item-wrap .contact-item .contact-info a, 
+    .contact-item-wrap .contact-item .contact-info p,
+    .checkbox label,
+    .about-wrap-two .about-content .features-list li,
+    .pricing-card .pricing-features li,
+    .content-feature-list li,
+    .breadcrumb-content .breadcrumb-menu li:last-child,
+    .responsive-navbar .offcanvas-body .contact-info li p,
+    .responsive-navbar .offcanvas-body .contact-info li a,
+    article ol li, .service-details-wrap ol li, .project-details-wrap ol li, .terms-wrap ol li,
+    .content-feature-list li,
+    .filter-radio-group [type="radio"]:checked + label,
+    .filter-radio-group [type="radio"]:not(:checked) + label,
+    .content-feature-list-two li,
+    .contact-item .contact-info p{
+        color: var(--offwhiteColor)!important;
+    }
+    .about-wrap-two .about-img-wrap .circle-text span,
+    .process-card h3 span,
+    .help-wrap-two .help-img-wrap .help-img .help-promo-text span,
+    .footer-wrap .copyright-text a,
+    .about-wrap-three .about-img-wrap .circle-text span,
+    .breadcrumb-wrap .breadcrumb-content .breadcrumb-menu li a,
+    .footer-wrap .copyright-text span {
+        color: var(--primaryColor)!important;
+    }
+    .hero-doc-card,
+    .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu{
+        box-shadow: none!important;
+    }
+    .appointment-wrap-two .appointment-bg-one::before {
+        background-color: rgba(0, 0, 0, 0.84);
+    }
+    .hero-wrap.hero-two .hero-content .hero-doc-card .btn-three {
+        color: var(--offwhiteColor);
+        border: 1px solid rgba(255, 255, 255, 0.21);
+    }
+    .link-one,
+    .link-two,
+    .navbar-area.header-one .navbar .navbar-nav .nav-item .nav-link,
+    .navbar-area.header-two .navbar .navbar-nav .nav-item .nav-link,
+    .navbar-area.header-three .navbar .navbar-nav .nav-item .nav-link,
+    .blog-card-one .blog-card-info h3 a, .blog-card-two .blog-card-info h3 a,
+    .footer-wrap .footer-widget .footer-menu li a,
+    .footer-wrap .footer-widget .contact-info li p,
+    .footer-wrap .footer-widget .contact-info li a,
+    .blog-metainfo li a,
+    .blog-metainfo li,
+    .category-box li a,
+    .category-list-one li a,
+    .post-tag ul li a,
+    .comment-item-wrap .reply-btn,
+    .service-card-one .service-info h3 a,
+    .service-card-two .service-info h3 a,
+    .service-card-three .service-info h3 a,
+    .single-product-tablist .nav-item .nav-link,
+    .breadcrumb-content .breadcrumb-menu li a{
+        color: var(--whiteColor)!important;
+        &:hover,
+        &.active{
+            color: var(--primaryColor)!important;
+        }
+    }
+    .partner-logo img {
+        filter: brightness(0) invert(1);
+    }
+    .testimonial-wrap-two::before {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .responsive-navbar {
+        .offcanvas-body {
+            .accordion {
+                .accordion-item {
+                    .accordion-button{
+                        color: var(--whiteColor);
+                        &.active{
+                            color: var(--primaryColor);
+                        }
+                    }
+                    .accordion-collapse {
+                        .accordion-body {
+                            background-color: transparent;
+                            .accordion-item {
+                                .accordion-link {
+                                    color: var(--whiteColor);
+                                    &.active{
+                                        color: var(--primaryColor);
+                                    }
+                                }
+                                .accordion-collapse {
+                                    .accordion-body {
+                                        background-color: transparent;
+                                        .accordion-item {
+                                            .accordion-link {
+                                                color: var(--whiteColor);
+                                                &.active{
+                                                    color: var(--primaryColor);
+                                                }
+                                            }
+                                        }
+                                        .accordion-button {
+                                            color: var(--whiteColor);
+                                            &.active{
+                                                color: var(--primaryColor);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .accordion-button {
+                                color: var(--whiteColor);
+                                &.active{
+                                    color: var(--primaryColor);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navbar-area .navbar .navbar-toggler .burger-menu span {
+        background: var(--whiteColor);
+    }
+    .offcanvas-contact-info h4{
+        color: var(--primaryColor)!important;
+    }
+    .process-card .process-counter,
+    .feature-card .feature-counter{
+        opacity: 0.2;
+    }
+    .feature-card-wrap .row > div .feature-card::after, .feature-card-wrap-two .row > div .feature-card::after {
+        background-color: rgba(255, 255, 255, 0.18);
+    }
+    .link-one{
+        color: var(--whiteColor)!important;
+        &:after{
+            background-color: var(--whiteColor);
+        }
+        &:hover{
+            color: var(--primaryColor)!important;
+            &:after{
+                background-color: var(--primaryColor);
+            }
+        } 
+    }
+    .progress-wrap svg.progress-circle path {
+        stroke: rgba(255, 255, 255,0.6); 
+    }
+    article,
+    .hero-wrap.hero-two .hero-content h1,
+    .service-card-one,
+    .responsive-navbar .offcanvas-header,
+    .responsive-navbar .offcanvas-body .offcanvas-contact-info,
+    .responsive-navbar .offcanvas-body .others-option,
+    .navbar-area.header-two, .navbar-area.header-three,
+    .post-meta-option,
+    .comment-item-wrap .comment-item,
+    .accordion-item .accordion-body,
+    .single-product-details .single-product-title p,
+    .checkout-details .bill-item-title, .checkout-details-two .bill-item-title,
+    .checkout-details .bill-item-wrap .bill-item:last-child, .checkout-details-two .bill-item-wrap .bill-item:last-child,
+    .checkout-details-two,
+    .select-payment-method [type="radio"]:not(:checked) + label::before, .select-payment-method [type="radio"]:checked + label::before,
+    .cart-total .cart-total-wrap .cart-total-item,
+    .cart-table table tbody tr,
+    .single-product-tablist,
+    .single-product-details .product-more-option-item .product-quantity,
+    .checkbox label::before{
+        border-color: rgba(255,255,255,0.25)!important;
+    }
+    .checkout-details .select-payment-method div label, .checkout-details-two .select-payment-method div label{
+        color: var(--offwhiteColor);
+    }
+    .single-product-details .product-more-option-item .product-quantity .v-counter input{
+        border: none!important;
+        color: var(--whiteColor);
+    }
+    .wh-wrap-three .wh-content .wh-card-wrap .wh-card .wh-icon,
+    .service-card-two .service-icon,
+    .service-card-three .service-icon,
+    .wh-card-one .wh-icon {
+        background-color: var(--codColor);
+        box-shadow:none!important;
+        i{
+            color: var(--primaryColor);
+        }
+    }
+    .testimonial-slider-one{
+        .testimonial-one-pagination{
+            .swiper-pagination-bullet{
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                &:after{
+                    background-color: rgba(255, 255, 255, 0.18);
+                }
+                &.swiper-pagination-bullet-active{
+                    border-color: var(--primaryColor);
+                    &:after{
+                        background-color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+    .hero-slider-one{
+        .hero-pagination{
+            .swiper-pagination-bullet{
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                &:after{
+                    background-color: rgba(255, 255, 255, 0.18);
+                }
+                &.swiper-pagination-bullet-active{
+                    border-color: var(--primaryColor);
+                    &:after{
+                        background-color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+    .project-slider-one{
+        .project-pagination{
+            .swiper-pagination-bullet{
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                &:after{
+                    background-color: rgba(255, 255, 255, 0.18);
+                }
+                &.swiper-pagination-bullet-active{
+                    border-color: var(--primaryColor);
+                    &:after{
+                        background-color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+    .testimonial-wrap-three .testimonial-btn .testimonial-button-prev img, .testimonial-wrap-three .testimonial-btn .testimonial-button-next img {
+        filter: brightness(0) invert(1);
+    }
+    .navbar-area .navbar .others-option .option-item .sidebar-toggler img {
+       filter: brightness(0) invert(1);
+    }
+    .hero-slide-item,
+    .video-bg,
+    .promo-card,
+    .video-bg-two{
+        position: relative;
+        z-index: 1;
+        &:after{
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: -1;
+        }
+    }
+    .breadcrumb-wrap{
+        &:after{
+            background:var(--footerColor);
+        }
+        .br-shape-one,
+        .br-shape-two{
+            filter: brightness(0) invert(1);
+        }
+    }
+    .help-wrap{
+        position: relative;
+        z-index: 1;
+        &:before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: -1;
+        }
+    }
+    .progressbar-wrap .progress-bar .progress-content-outter:after {
+       background-color: rgba(255, 255, 255, 0.18);
+    }
+    .accordion-item {
+        .accordion-header {
+            .accordion-button{
+                background: var(--codColor);
+                color: var(--whiteColor);
+            }
+            .accordion-body{
+                background-color: transparent;
+            }
+        }
+    }
+    .wp-block-quote,
+    .sidebar-widget,
+    .sidebar-widget-two{
+        background-color: transparent;
+        box-shadow: none;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    input,textarea,
+    #cmt-form .comment-form .form-group input,
+    #cmt-form .comment-form .form-group textarea,
+    #appointment-form .form-group input,
+    #appointment-form .form-group textarea,
+    #appointment-form .form-group select,
+    .faq-form .form-group input,
+    .faq-form .form-group textarea,
+    .faq-form .form-group select,
+    .login-form .form-group input,
+    .checkout-form .form-group input,
+    .checkout-form .form-group textarea,
+    .comment-form .form-group input,
+    .comment-form .form-group textarea,
+    #contactForm .form-group input,
+    #contactForm .form-group textarea,
+    .login-form-wrap .login-body .form-group input{
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2)!important;
+        color: var(--whiteColor);
+        &::placeholder{
+            color: var(--whiteColor);
+            opacity: 0.8;
+        }
+        
+    }
+    .checkout-form .form-group label{
+        color: var(--offwhiteColor);
+    }
+    .login-form-wrap{
+        .or-text {
+            &:before {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+            span {
+                color: var(--offwhiteColor);
+                background-color: var(--codColor);
+            }
+           
+        }
+    }
+    .page-nav li a{
+        background-color:var(--whiteColor);
+        &:hover,
+        &.active{
+            background-color:var(--secondaryColor);
+            color: var(--whiteColor)!important
+        }
+    }
+    .search-box .form-group input{
+        background-color: var(--blackColor);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: var(--whiteColor);
+        &::placeholder{
+            color: var(--whiteColor);
+        }
+    }
+    .checkout-form .form-group select,
+    .search-result select{
+        background-color: transparent;
+        color: var(--whiteColor);
+        border: 1px solid rgba(255,255,255,0.2);
+        background-image: url(../img/down-arrow-white.webp);
+    }
+    .checkout-form .form-group select{
+        background-color: var(--codColor);
+    }
+    select{
+        background-image: url(../img/down-arrow-white.webp);
+    }
+    .pp-post-item {
+        .pp-post-info {
+            h6 {
+                a{
+                    color: var(--whiteColor);
+                    &:hover{
+                        color: var(--secondaryColor);
+                    }
+                }
+            }
+        }
+    }
+    .blog-metainfo li,
+    .blog-metainfo li a{
+        color: var(--offwhiteColor);
+        &:hover{
+            color: var(--secondaryColor);
+        }
+    }
+    .breadcrumb-content .breadcrumb-menu li::after {
+        background-color: var(--whiteColor);
+    }
+    .pricing-wrap-one:before,
+    .testimonial-wrap-two,
+    .service-wrap-one,
+    .hero-wrap.hero-one,
+    .hero-wrap.hero-two,
+    .about-wrap-two:before,
+    .project-wrap{
+        background-image: none;
+        background-color: var(--codColor);
+    }
+    .footer-wrap.footer-one::before {
+       background-image: none;
+    }
+}
+@media only screen and (max-width:991px) {
+    .switch-theme-mode {
+        top: 270px;
+    }
+}
+@media only screen and (min-width:992px) {
+    .theme-dark{
+        .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu{
+            background-color:var(--codColor);
+        }
+    }
+}
