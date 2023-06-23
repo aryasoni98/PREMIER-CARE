@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="assets/css/dark-theme.css">
 
     <title>Premier Care</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.webp">
-</head>
+    <link rel="icon" type="image/png" href="assets/img/logo.svg"></head>
 
 <body>
 
@@ -180,7 +179,7 @@
                     </a>
                 </div>
                 <div class="accordion-item">
-                    <a class="accordion-button without-icon" href="blog-details-no-sidebar.html">
+                    <a class="accordion-button without-icon" href="workshop.html">
                         Patient Free Workshop
                     </a>
                 </div>
@@ -309,62 +308,77 @@
                     <h2>Any Questions</h2>
                 </div>
                 <form class="form-wrap" id="contactForm">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="name" id="name" placeholder="Name" required
-                                    data-error="Please enter your name">
-                                <div class="help-block with-errors"></div>
+                    <div class="container ptb-100">
+                        <div class="row gx-5">
+                            <div class="col-xl-10 offset-xl-1">
+                                <form action="#" id="appointment-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Body Part/Condition">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Preferred Day/Time For Appointment">
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-md-6">
+                                            <div class="form-group">
+                                                <select>
+                                                    <option value="0" data-display="Your Gender">Your Gender</option>
+                                                    <option value="1">Male</option>
+                                                    <option value="2">FeMale</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="date" placeholder="Date Of Birth">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="How Did You First hear About Us?">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <select>
+                                                    <option value="0" data-display="Your Gender">Location</option>
+                                                    <option value="1">2163 Oak Tree Road, Suite# 108 Edison, NJ 08820</option>
+                                                    <!-- <option value="2">Physical Health</option> -->
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <!-- <div class="form-group">
+                                                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                                            </div> -->
+                                            <button type="submit" class="btn-one">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" name="email" id="email" placeholder="Email Address" required
-                                    data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="number" name="phone" id="phone" placeholder="Phone Number" required
-                                    data-error="Please enter your phone">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="msg_subject" id="msg_subject" placeholder="Subject"
-                                    data-error="Please enter your subject">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message"
-                                    required data-error="Please enter your message"></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <div class="form-check checkbox">
-                                    <input name="gridCheck" value="I agree to the terms and privacy policy."
-                                        class="form-check-input" type="checkbox" id="gridCheck" required>
-                                    <label class="form-check-label" for="gridCheck">
-                                        I agree to the <a class="link-one" href="terms-conditions.html">terms &amp;
-                                            conditions</a> and <a class="link-one" href="privacy-policy.html">privacy
-                                            policy</a>
-                                    </label>
-                                    <div class="help-block with-errors gridCheck-error"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn-one d-block w-100">Send Message</button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- Appointment Section End -->
+            
                 </form>
             </div>
         </div>
