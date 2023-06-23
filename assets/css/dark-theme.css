@@ -2,7 +2,7 @@
     Dark Theme  CSS
 -------------------------------*/
 :root {
-  --aztechColor:#02272F;
+  --aztechColor: #02272f;
   --codColor: #222;
   --darkColor: #000;
   --grayColor: #f7f7f7;
@@ -146,7 +146,8 @@ input:checked + .slider:before {
 .theme-dark .service-wrap-three,
 .theme-dark .hero-wrap.hero-three,
 .theme-dark .hero-gallery-wrap,
-.theme-dark .checkout-details .bill-item-wrap, .theme-dark .checkout-details-two .bill-item-wrap,
+.theme-dark .checkout-details .bill-item-wrap,
+.theme-dark .checkout-details-two .bill-item-wrap,
 .theme-dark .bg-white {
   background-color: var(--darkColor) !important;
 }
@@ -167,7 +168,8 @@ input:checked + .slider:before {
 .theme-dark .hero-doc-card,
 .theme-dark .pricing-card .pricing-tag,
 .theme-dark .project-details-wrap .client-quote,
-.theme-dark .service-card-two, .theme-dark .service-card-three,
+.theme-dark .service-card-two,
+.theme-dark .service-card-three,
 .theme-dark .about-wrap-two .about-content .features-list li,
 .theme-dark .about-wrap-two .about-content .features-list li span,
 .theme-dark .wh-wrap-three .wh-content .wh-card-wrap .wh-card,
@@ -177,7 +179,8 @@ input:checked + .slider:before {
 .theme-dark .wh-card-one {
   background-color: var(--aztechColor) !important;
 }
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li p, .theme-dark .responsive-navbar .offcanvas-body .contact-info li a {
+.theme-dark .responsive-navbar .offcanvas-body .contact-info li p,
+.theme-dark .responsive-navbar .offcanvas-body .contact-info li a {
   color: var(--paraColor) !important;
 }
 .theme-dark h1,
@@ -187,19 +190,34 @@ input:checked + .slider:before {
 .theme-dark h5,
 .theme-dark h6,
 .theme-dark h3 a,
-.theme-dark .checkout-details .bill-item b, .theme-dark .checkout-details .bill-item-footer b, .theme-dark .checkout-details .bill-item-title b, .theme-dark .checkout-details-two .bill-item b, .theme-dark .checkout-details-two .bill-item-footer b, .theme-dark .checkout-details-two .bill-item-title b,
+.theme-dark .checkout-details .bill-item b,
+.theme-dark .checkout-details .bill-item-footer b,
+.theme-dark .checkout-details .bill-item-title b,
+.theme-dark .checkout-details-two .bill-item b,
+.theme-dark .checkout-details-two .bill-item-footer b,
+.theme-dark .checkout-details-two .bill-item-title b,
 .theme-dark .responsive-navbar .offcanvas-body .contact-info li i,
 .theme-dark .navbar-area .navbar .others-option .option-item .search-btn i,
 .theme-dark .header-wrap.header-two .navbar .navbar-nav .nav-item a,
 .theme-dark .header-wrap.header-three .header-bottom .navbar .navbar-nav .nav-item a,
 .theme-dark .cart-table table thead tr th,
-.theme-dark .cart-total .cart-total-wrap .cart-total-item p b, .theme-dark .cart-total .cart-total-wrap .cart-total-item span b,
+.theme-dark .cart-total .cart-total-wrap .cart-total-item p b,
+.theme-dark .cart-total .cart-total-wrap .cart-total-item span b,
 .theme-dark .cart-table table tbody tr td,
-.theme-dark .single-product-details .product-more-option-item span, .theme-dark .single-product-details .product-more-option-item a,
-.theme-dark article p strong, .theme-dark article p b, .theme-dark .terms-wrap p strong, .theme-dark .terms-wrap p b {
+.theme-dark .single-product-details .product-more-option-item span,
+.theme-dark .single-product-details .product-more-option-item a,
+.theme-dark article p strong,
+.theme-dark article p b,
+.theme-dark .terms-wrap p strong,
+.theme-dark .terms-wrap p b {
   color: var(--whiteColor) !important;
 }
-.theme-dark .checkout-details .bill-item::after, .theme-dark .checkout-details .bill-item-title::after, .theme-dark .checkout-details .bill-item-footer::after, .theme-dark .checkout-details-two .bill-item::after, .theme-dark .checkout-details-two .bill-item-title::after, .theme-dark .checkout-details-two .bill-item-footer::after {
+.theme-dark .checkout-details .bill-item::after,
+.theme-dark .checkout-details .bill-item-title::after,
+.theme-dark .checkout-details .bill-item-footer::after,
+.theme-dark .checkout-details-two .bill-item::after,
+.theme-dark .checkout-details-two .bill-item-title::after,
+.theme-dark .checkout-details-two .bill-item-footer::after {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .theme-dark .footer-wrap {
@@ -208,7 +226,8 @@ input:checked + .slider:before {
 .theme-dark .cart-table table tbody tr td {
   background-color: transparent;
 }
-.theme-dark p, .theme-dark span,
+.theme-dark p,
+.theme-dark span,
 .theme-dark .contact-item-wrap .contact-item .contact-info a,
 .theme-dark .contact-item-wrap .contact-item .contact-info p,
 .theme-dark .checkbox label,
@@ -218,7 +237,10 @@ input:checked + .slider:before {
 .theme-dark .breadcrumb-content .breadcrumb-menu li:last-child,
 .theme-dark .responsive-navbar .offcanvas-body .contact-info li p,
 .theme-dark .responsive-navbar .offcanvas-body .contact-info li a,
-.theme-dark article ol li, .theme-dark .service-details-wrap ol li, .theme-dark .project-details-wrap ol li, .theme-dark .terms-wrap ol li,
+.theme-dark article ol li,
+.theme-dark .service-details-wrap ol li,
+.theme-dark .project-details-wrap ol li,
+.theme-dark .terms-wrap ol li,
 .theme-dark .content-feature-list li,
 .theme-dark .filter-radio-group [type=radio]:checked + label,
 .theme-dark .filter-radio-group [type=radio]:not(:checked) + label,
@@ -251,7 +273,8 @@ input:checked + .slider:before {
 .theme-dark .navbar-area.header-one .navbar .navbar-nav .nav-item .nav-link,
 .theme-dark .navbar-area.header-two .navbar .navbar-nav .nav-item .nav-link,
 .theme-dark .navbar-area.header-three .navbar .navbar-nav .nav-item .nav-link,
-.theme-dark .blog-card-one .blog-card-info h3 a, .theme-dark .blog-card-two .blog-card-info h3 a,
+.theme-dark .blog-card-one .blog-card-info h3 a,
+.theme-dark .blog-card-two .blog-card-info h3 a,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a,
 .theme-dark .footer-wrap .footer-widget .contact-info li p,
 .theme-dark .footer-wrap .footer-widget .contact-info li a,
@@ -278,7 +301,9 @@ input:checked + .slider:before {
 .theme-dark .navbar-area.header-three .navbar .navbar-nav .nav-item .nav-link:hover,
 .theme-dark .navbar-area.header-three .navbar .navbar-nav .nav-item .nav-link.active,
 .theme-dark .blog-card-one .blog-card-info h3 a:hover,
-.theme-dark .blog-card-one .blog-card-info h3 a.active, .theme-dark .blog-card-two .blog-card-info h3 a:hover, .theme-dark .blog-card-two .blog-card-info h3 a.active,
+.theme-dark .blog-card-one .blog-card-info h3 a.active,
+.theme-dark .blog-card-two .blog-card-info h3 a:hover,
+.theme-dark .blog-card-two .blog-card-info h3 a.active,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a:hover,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a.active,
 .theme-dark .footer-wrap .footer-widget .contact-info li p:hover,
@@ -361,7 +386,8 @@ input:checked + .slider:before {
 .theme-dark .feature-card .feature-counter {
   opacity: 0.2;
 }
-.theme-dark .feature-card-wrap .row > div .feature-card::after, .theme-dark .feature-card-wrap-two .row > div .feature-card::after {
+.theme-dark .feature-card-wrap .row > div .feature-card::after,
+.theme-dark .feature-card-wrap-two .row > div .feature-card::after {
   background-color: rgba(255, 255, 255, 0.18);
 }
 .theme-dark .link-one {
@@ -385,15 +411,19 @@ input:checked + .slider:before {
 .theme-dark .responsive-navbar .offcanvas-header,
 .theme-dark .responsive-navbar .offcanvas-body .offcanvas-contact-info,
 .theme-dark .responsive-navbar .offcanvas-body .others-option,
-.theme-dark .navbar-area.header-two, .theme-dark .navbar-area.header-three,
+.theme-dark .navbar-area.header-two,
+.theme-dark .navbar-area.header-three,
 .theme-dark .post-meta-option,
 .theme-dark .comment-item-wrap .comment-item,
 .theme-dark .accordion-item .accordion-body,
 .theme-dark .single-product-details .single-product-title p,
-.theme-dark .checkout-details .bill-item-title, .theme-dark .checkout-details-two .bill-item-title,
-.theme-dark .checkout-details .bill-item-wrap .bill-item:last-child, .theme-dark .checkout-details-two .bill-item-wrap .bill-item:last-child,
+.theme-dark .checkout-details .bill-item-title,
+.theme-dark .checkout-details-two .bill-item-title,
+.theme-dark .checkout-details .bill-item-wrap .bill-item:last-child,
+.theme-dark .checkout-details-two .bill-item-wrap .bill-item:last-child,
 .theme-dark .checkout-details-two,
-.theme-dark .select-payment-method [type=radio]:not(:checked) + label::before, .theme-dark .select-payment-method [type=radio]:checked + label::before,
+.theme-dark .select-payment-method [type=radio]:not(:checked) + label::before,
+.theme-dark .select-payment-method [type=radio]:checked + label::before,
 .theme-dark .cart-total .cart-total-wrap .cart-total-item,
 .theme-dark .cart-table table tbody tr,
 .theme-dark .single-product-tablist,
@@ -401,7 +431,8 @@ input:checked + .slider:before {
 .theme-dark .checkbox label::before {
   border-color: rgba(255, 255, 255, 0.25) !important;
 }
-.theme-dark .checkout-details .select-payment-method div label, .theme-dark .checkout-details-two .select-payment-method div label {
+.theme-dark .checkout-details .select-payment-method div label,
+.theme-dark .checkout-details-two .select-payment-method div label {
   color: var(--offwhiteColor);
 }
 .theme-dark .single-product-details .product-more-option-item .product-quantity .v-counter input {
@@ -457,7 +488,8 @@ input:checked + .slider:before {
 .theme-dark .project-slider-one .project-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
   background-color: var(--primaryColor);
 }
-.theme-dark .testimonial-wrap-three .testimonial-btn .testimonial-button-prev img, .theme-dark .testimonial-wrap-three .testimonial-btn .testimonial-button-next img {
+.theme-dark .testimonial-wrap-three .testimonial-btn .testimonial-button-prev img,
+.theme-dark .testimonial-wrap-three .testimonial-btn .testimonial-button-next img {
   filter: brightness(0) invert(1);
 }
 .theme-dark .navbar-area .navbar .others-option .option-item .sidebar-toggler img {
@@ -521,7 +553,8 @@ input:checked + .slider:before {
   box-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.theme-dark input, .theme-dark textarea,
+.theme-dark input,
+.theme-dark textarea,
 .theme-dark #cmt-form .comment-form .form-group input,
 .theme-dark #cmt-form .comment-form .form-group textarea,
 .theme-dark #appointment-form .form-group input,
@@ -546,7 +579,8 @@ input:checked + .slider:before {
   color: var(--whiteColor);
   opacity: 0.8;
 }
-.theme-dark input::placeholder, .theme-dark textarea::placeholder,
+.theme-dark input::placeholder,
+.theme-dark textarea::placeholder,
 .theme-dark #cmt-form .comment-form .form-group input::placeholder,
 .theme-dark #cmt-form .comment-form .form-group textarea::placeholder,
 .theme-dark #appointment-form .form-group input::placeholder,
@@ -647,4 +681,7 @@ input:checked + .slider:before {
   .theme-dark .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu {
     background-color: var(--codColor);
   }
+}
+.centering {
+  justify-content: center;
 }/*# sourceMappingURL=dark-theme.css.map */
