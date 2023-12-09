@@ -3811,9 +3811,9 @@ New Demo Add
 }
 
 /*-------------------------------
-         Contact CSS
+         Contact Us CSS
 -------------------------------*/
-.contact-item-wrap .contact-item {
+.Contact Us-item-wrap .Contact Us-item {
   margin: 0 0 25px;
   position: relative;
   z-index: 1;
@@ -3825,7 +3825,7 @@ New Demo Add
   padding: 25px;
   border-radius: 5px;
 }
-.contact-item-wrap .contact-item .contact-icon {
+.Contact Us-item-wrap .Contact Us-item .Contact Us-icon {
   width: 96px;
   height: 96px;
   text-align: center;
@@ -3839,7 +3839,7 @@ New Demo Add
   text-align: center;
   border-radius: 15px;
 }
-.contact-item-wrap .contact-item .contact-icon i {
+.Contact Us-item-wrap .Contact Us-item .Contact Us-icon i {
   color: var(--optionalColor);
   line-height: 0.8;
   font-size: 44px;
@@ -3848,20 +3848,20 @@ New Demo Add
   display: block;
   transition: var(--transition);
 }
-.contact-item-wrap .contact-item .contact-info {
+.Contact Us-item-wrap .Contact Us-item .Contact Us-info {
   width: calc(100% - 126px);
   margin-left: 30px;
   transition: var(--transition);
 }
-.contact-item-wrap .contact-item .contact-info h3 {
+.Contact Us-item-wrap .Contact Us-item .Contact Us-info h3 {
   font-size: 18px;
   margin: 0 0 8px;
   font-weight: 600;
   font-family: var(--secondaryFont);
   transition: var(--transition);
 }
-.contact-item-wrap .contact-item .contact-info a,
-.contact-item-wrap .contact-item .contact-info p {
+.Contact Us-item-wrap .Contact Us-item .Contact Us-info a,
+.Contact Us-item-wrap .Contact Us-item .Contact Us-info p {
   font-size: 15px;
   display: block;
   margin: 0;
@@ -3869,28 +3869,28 @@ New Demo Add
   color: var(--paraColor);
   transition: var(--transition);
 }
-.contact-item-wrap .contact-item:hover {
+.Contact Us-item-wrap .Contact Us-item:hover {
   transform: translateY(-5px);
 }
-.contact-item-wrap .contact-item:hover .contact-icon {
+.Contact Us-item-wrap .Contact Us-item:hover .Contact Us-icon {
   background-color: var(--primaryColor);
 }
-.contact-item-wrap .contact-item:hover .contact-icon i {
+.Contact Us-item-wrap .Contact Us-item:hover .Contact Us-icon i {
   color: var(--whiteColor);
 }
 
-#contactForm {
+#Contact UsForm {
   margin-bottom: 32px;
 }
 
 #cmt-form .form-group,
-#contactForm .form-group {
+#Contact UsForm .form-group {
   margin: 0 0 20px;
 }
 #cmt-form .form-group input,
 #cmt-form .form-group textarea,
-#contactForm .form-group input,
-#contactForm .form-group textarea {
+#Contact UsForm .form-group input,
+#Contact UsForm .form-group textarea {
   width: 100%;
   background: var(--grayColor);
   border: none;
@@ -3899,22 +3899,22 @@ New Demo Add
 }
 #cmt-form .form-group input:focus,
 #cmt-form .form-group textarea:focus,
-#contactForm .form-group input:focus,
-#contactForm .form-group textarea:focus {
+#Contact UsForm .form-group input:focus,
+#Contact UsForm .form-group textarea:focus {
   border: 1px solid rgba(0, 0, 0, 0.09);
 }
 #cmt-form .form-group input,
-#contactForm .form-group input {
+#Contact UsForm .form-group input {
   height: 50px;
 }
 #cmt-form .form-group textarea,
-#contactForm .form-group textarea {
+#Contact UsForm .form-group textarea {
   height: 152px;
   resize: none;
   padding-top: 18px;
 }
 #cmt-form button,
-#contactForm button {
+#Contact UsForm button {
   margin-bottom: -10px;
 }
 
@@ -5800,7 +5800,7 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   padding: 0;
   background-color: transparent;
 }
-.sidebar .sidebar-widget.contact-widget {
+.sidebar .sidebar-widget.Contact Us-widget {
   background-color: transparent;
 }
 .sidebar .sidebar-widget .sidebar-widget-title {
@@ -5934,10 +5934,10 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
 }
 
 /*-------------------------------
-     Contact Widget CSS
+     Contact Us Widget CSS
 -------------------------------*/
-.contact-widget {
-  background-image: url(../img/contact-bg.webp);
+.Contact Us-widget {
+  background-image: url(../img/Contact Us-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5946,7 +5946,7 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   border-radius: 5px;
   overflow: hidden;
 }
-.contact-widget:after {
+.Contact Us-widget:after {
   position: absolute;
   top: 0;
   left: -1%;
@@ -5957,17 +5957,17 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   border-radius: 5px;
   background: rgba(8, 1, 68, 0.85);
 }
-.contact-widget .contact-item {
+.Contact Us-widget .Contact Us-item {
   position: relative;
   padding-left: 68px;
   margin-bottom: 18px;
 }
-.contact-widget .contact-item img {
+.Contact Us-widget .Contact Us-item img {
   position: absolute;
   top: 9px;
   left: 0;
 }
-.contact-widget .contact-item h4 {
+.Contact Us-widget .Contact Us-item h4 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
@@ -5975,18 +5975,18 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   color: var(--whiteColor);
   margin-bottom: 8px;
 }
-.contact-widget .contact-item a {
+.Contact Us-widget .Contact Us-item a {
   font-size: 16px;
   line-height: 20px;
   color: var(--whiteColor);
 }
-.contact-widget p {
+.Contact Us-widget p {
   margin: 0 0 26px;
   color: #DCDCDC;
 }
 
-.contact-widget-two {
-  background-image: url(../img/contact-bg-2.webp);
+.Contact Us-widget-two {
+  background-image: url(../img/Contact Us-bg-2.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5996,7 +5996,7 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   padding: 105px 40px 55px !important;
   text-align: center;
 }
-.contact-widget-two:after {
+.Contact Us-widget-two:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -6007,7 +6007,7 @@ article .blog-title h1, article .blog-title h2, article .blog-title h3, article 
   border-radius: 5px;
   background: rgba(9, 0, 85, 0.63);
 }
-.contact-widget-two h4 {
+.Contact Us-widget-two h4 {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 20px;

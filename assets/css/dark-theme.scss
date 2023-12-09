@@ -186,13 +186,13 @@ input:checked + .slider:before {
   .about-wrap-two .about-content .features-list li span,
   .wh-wrap-three .wh-content .wh-card-wrap .wh-card,
   .about-wrap-three .about-content .counter-wrap,
-  .contact-item-wrap .contact-item,
+  .Contact Us-item-wrap .Contact Us-item,
   .cart-table table thead tr,
   .wh-card-one {
     background-color: var(--aztechColor) !important;
   }
-  .responsive-navbar .offcanvas-body .contact-info li p,
-  .responsive-navbar .offcanvas-body .contact-info li a {
+  .responsive-navbar .offcanvas-body .Contact Us-info li p,
+  .responsive-navbar .offcanvas-body .Contact Us-info li a {
     color: var(--paraColor) !important;
   }
   h1,
@@ -208,7 +208,7 @@ input:checked + .slider:before {
   .checkout-details-two .bill-item b,
   .checkout-details-two .bill-item-footer b,
   .checkout-details-two .bill-item-title b,
-  .responsive-navbar .offcanvas-body .contact-info li i,
+  .responsive-navbar .offcanvas-body .Contact Us-info li i,
   .navbar-area .navbar .others-option .option-item .search-btn i,
   .header-wrap.header-two .navbar .navbar-nav .nav-item a,
   .header-wrap.header-three .header-bottom .navbar .navbar-nav .nav-item a,
@@ -240,15 +240,15 @@ input:checked + .slider:before {
   }
   p,
   span,
-  .contact-item-wrap .contact-item .contact-info a,
-  .contact-item-wrap .contact-item .contact-info p,
+  .Contact Us-item-wrap .Contact Us-item .Contact Us-info a,
+  .Contact Us-item-wrap .Contact Us-item .Contact Us-info p,
   .checkbox label,
   .about-wrap-two .about-content .features-list li,
   .pricing-card .pricing-features li,
   .content-feature-list li,
   .breadcrumb-content .breadcrumb-menu li:last-child,
-  .responsive-navbar .offcanvas-body .contact-info li p,
-  .responsive-navbar .offcanvas-body .contact-info li a,
+  .responsive-navbar .offcanvas-body .Contact Us-info li p,
+  .responsive-navbar .offcanvas-body .Contact Us-info li a,
   article ol li,
   .service-details-wrap ol li,
   .project-details-wrap ol li,
@@ -257,7 +257,7 @@ input:checked + .slider:before {
   .filter-radio-group [type="radio"]:checked + label,
   .filter-radio-group [type="radio"]:not(:checked) + label,
   .content-feature-list-two li,
-  .contact-item .contact-info p {
+  .Contact Us-item .Contact Us-info p {
     color: var(--offwhiteColor) !important;
   }
   .about-wrap-two .about-img-wrap .circle-text span,
@@ -288,8 +288,8 @@ input:checked + .slider:before {
   .blog-card-one .blog-card-info h3 a,
   .blog-card-two .blog-card-info h3 a,
   .footer-wrap .footer-widget .footer-menu li a,
-  .footer-wrap .footer-widget .contact-info li p,
-  .footer-wrap .footer-widget .contact-info li a,
+  .footer-wrap .footer-widget .Contact Us-info li p,
+  .footer-wrap .footer-widget .Contact Us-info li a,
   .blog-metainfo li a,
   .blog-metainfo li,
   .category-box li a,
@@ -368,7 +368,7 @@ input:checked + .slider:before {
   .navbar-area .navbar .navbar-toggler .burger-menu span {
     background: var(--whiteColor);
   }
-  .offcanvas-contact-info h4 {
+  .offcanvas-Contact Us-info h4 {
     color: var(--primaryColor) !important;
   }
   .process-card .process-counter,
@@ -398,7 +398,7 @@ input:checked + .slider:before {
   .hero-wrap.hero-two .hero-content h1,
   .service-card-one,
   .responsive-navbar .offcanvas-header,
-  .responsive-navbar .offcanvas-body .offcanvas-contact-info,
+  .responsive-navbar .offcanvas-body .offcanvas-Contact Us-info,
   .responsive-navbar .offcanvas-body .others-option,
   .navbar-area.header-two,
   .navbar-area.header-three,
@@ -573,8 +573,8 @@ input:checked + .slider:before {
   .checkout-form .form-group textarea,
   .comment-form .form-group input,
   .comment-form .form-group textarea,
-  #contactForm .form-group input,
-  #contactForm .form-group textarea,
+  #Contact UsForm .form-group input,
+  #Contact UsForm .form-group textarea,
   .login-form-wrap .login-body .form-group input {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.2) !important;

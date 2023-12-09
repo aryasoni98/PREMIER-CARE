@@ -728,18 +728,18 @@
         width: 100%;
         padding: 16px 20px 14px;
     }
-    //Contact CSS
-    .contact-item-wrap{
-        .contact-item {
+    //Contact Us CSS
+    .Contact Us-item-wrap{
+        .Contact Us-item {
             padding: 20px;
-            .contact-icon {
+            .Contact Us-icon {
                 width: 70px;
                 height: 70px;
                 i {
                     font-size: 36px;
                 }
             }
-            .contact-info {
+            .Contact Us-info {
                 width: calc(100% - 90px);
                 margin-left: 20px;
             }
@@ -939,7 +939,7 @@
     .sidebar{
         .sidebar-widget{
             padding: 25px;
-            &.contact-widget{
+            &.Contact Us-widget{
                 padding: 25px 25px 30px;
             }
         }
@@ -1823,7 +1823,7 @@
             padding: 30px 38px 35px;
             margin-bottom: 30px;
         }
-        .contact-widget{
+        .Contact Us-widget{
             padding: 35px 38px 40px;
         }
     }
@@ -2078,9 +2078,9 @@
             }
         }
     }
-    //Contact CSS
-    .contact-item-wrap{
-        .contact-item {
+    //Contact Us CSS
+    .Contact Us-item-wrap{
+        .Contact Us-item {
             padding: 30px;
         }
     }

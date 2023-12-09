@@ -4015,10 +4015,10 @@ New Demo Add
     }
 }
 /*-------------------------------
-         Contact CSS
+         Contact Us CSS
 -------------------------------*/
-.contact-item-wrap{
-    .contact-item {
+.Contact Us-item-wrap{
+    .Contact Us-item {
         margin: 0 0 25px;
         position: relative;
         z-index: 1;
@@ -4029,7 +4029,7 @@ New Demo Add
         align-items: center;
         padding: 25px;
         border-radius: 5px;
-        .contact-icon {
+        .Contact Us-icon {
             width: 96px;
             height: 96px;
             text-align: center;
@@ -4052,7 +4052,7 @@ New Demo Add
                 transition:var(--transition);
             }
         }
-        .contact-info {
+        .Contact Us-info {
             width: calc(100% - 126px);
             margin-left: 30px;
             transition:var(--transition);
@@ -4075,7 +4075,7 @@ New Demo Add
         }
         &:hover {
             transform:translateY(-5px);
-            .contact-icon {
+            .Contact Us-icon {
                 background-color: var(--primaryColor);
                 i {
                     color: var(--whiteColor);
@@ -4084,11 +4084,11 @@ New Demo Add
         }
     }
 }
-#contactForm {
+#Contact UsForm {
     margin-bottom: 32px;
 }
 #cmt-form,
-#contactForm {
+#Contact UsForm {
     .form-group {
         margin: 0 0 20px;
         input,
@@ -5887,7 +5887,7 @@ article{
             padding: 0;
             background-color: transparent;
         }
-        &.contact-widget{
+        &.Contact Us-widget{
             background-color: transparent;
         }
         .sidebar-widget-title{
@@ -6019,10 +6019,10 @@ article{
     }
 }
 /*-------------------------------
-     Contact Widget CSS
+     Contact Us Widget CSS
 -------------------------------*/
-.contact-widget{
-    background-image: url(../img/contact-bg.webp);
+.Contact Us-widget{
+    background-image: url(../img/Contact Us-bg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -6041,7 +6041,7 @@ article{
         border-radius: 5px;
         background: rgba(8, 1, 68, 0.85);
     }
-    .contact-item{
+    .Contact Us-item{
         position: relative;
         padding-left: 68px;
         margin-bottom: 18px;
@@ -6069,8 +6069,8 @@ article{
         color: #DCDCDC;
     }
 }
-.contact-widget-two{
-    background-image: url(../img/contact-bg-2.webp);
+.Contact Us-widget-two{
+    background-image: url(../img/Contact Us-bg-2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

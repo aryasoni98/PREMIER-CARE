@@ -174,13 +174,13 @@ input:checked + .slider:before {
 .theme-dark .about-wrap-two .about-content .features-list li span,
 .theme-dark .wh-wrap-three .wh-content .wh-card-wrap .wh-card,
 .theme-dark .about-wrap-three .about-content .counter-wrap,
-.theme-dark .contact-item-wrap .contact-item,
+.theme-dark .Contact Us-item-wrap .Contact Us-item,
 .theme-dark .cart-table table thead tr,
 .theme-dark .wh-card-one {
   background-color: var(--aztechColor) !important;
 }
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li p,
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li a {
+.theme-dark .responsive-navbar .offcanvas-body .Contact Us-info li p,
+.theme-dark .responsive-navbar .offcanvas-body .Contact Us-info li a {
   color: var(--paraColor) !important;
 }
 .theme-dark h1,
@@ -196,7 +196,7 @@ input:checked + .slider:before {
 .theme-dark .checkout-details-two .bill-item b,
 .theme-dark .checkout-details-two .bill-item-footer b,
 .theme-dark .checkout-details-two .bill-item-title b,
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li i,
+.theme-dark .responsive-navbar .offcanvas-body .Contact Us-info li i,
 .theme-dark .navbar-area .navbar .others-option .option-item .search-btn i,
 .theme-dark .header-wrap.header-two .navbar .navbar-nav .nav-item a,
 .theme-dark .header-wrap.header-three .header-bottom .navbar .navbar-nav .nav-item a,
@@ -228,15 +228,15 @@ input:checked + .slider:before {
 }
 .theme-dark p,
 .theme-dark span,
-.theme-dark .contact-item-wrap .contact-item .contact-info a,
-.theme-dark .contact-item-wrap .contact-item .contact-info p,
+.theme-dark .Contact Us-item-wrap .Contact Us-item .Contact Us-info a,
+.theme-dark .Contact Us-item-wrap .Contact Us-item .Contact Us-info p,
 .theme-dark .checkbox label,
 .theme-dark .about-wrap-two .about-content .features-list li,
 .theme-dark .pricing-card .pricing-features li,
 .theme-dark .content-feature-list li,
 .theme-dark .breadcrumb-content .breadcrumb-menu li:last-child,
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li p,
-.theme-dark .responsive-navbar .offcanvas-body .contact-info li a,
+.theme-dark .responsive-navbar .offcanvas-body .Contact Us-info li p,
+.theme-dark .responsive-navbar .offcanvas-body .Contact Us-info li a,
 .theme-dark article ol li,
 .theme-dark .service-details-wrap ol li,
 .theme-dark .project-details-wrap ol li,
@@ -245,7 +245,7 @@ input:checked + .slider:before {
 .theme-dark .filter-radio-group [type=radio]:checked + label,
 .theme-dark .filter-radio-group [type=radio]:not(:checked) + label,
 .theme-dark .content-feature-list-two li,
-.theme-dark .contact-item .contact-info p {
+.theme-dark .Contact Us-item .Contact Us-info p {
   color: var(--offwhiteColor) !important;
 }
 .theme-dark .about-wrap-two .about-img-wrap .circle-text span,
@@ -276,8 +276,8 @@ input:checked + .slider:before {
 .theme-dark .blog-card-one .blog-card-info h3 a,
 .theme-dark .blog-card-two .blog-card-info h3 a,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a,
-.theme-dark .footer-wrap .footer-widget .contact-info li p,
-.theme-dark .footer-wrap .footer-widget .contact-info li a,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li p,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li a,
 .theme-dark .blog-metainfo li a,
 .theme-dark .blog-metainfo li,
 .theme-dark .category-box li a,
@@ -306,10 +306,10 @@ input:checked + .slider:before {
 .theme-dark .blog-card-two .blog-card-info h3 a.active,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a:hover,
 .theme-dark .footer-wrap .footer-widget .footer-menu li a.active,
-.theme-dark .footer-wrap .footer-widget .contact-info li p:hover,
-.theme-dark .footer-wrap .footer-widget .contact-info li p.active,
-.theme-dark .footer-wrap .footer-widget .contact-info li a:hover,
-.theme-dark .footer-wrap .footer-widget .contact-info li a.active,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li p:hover,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li p.active,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li a:hover,
+.theme-dark .footer-wrap .footer-widget .Contact Us-info li a.active,
 .theme-dark .blog-metainfo li a:hover,
 .theme-dark .blog-metainfo li a.active,
 .theme-dark .blog-metainfo li:hover,
@@ -379,7 +379,7 @@ input:checked + .slider:before {
 .theme-dark .navbar-area .navbar .navbar-toggler .burger-menu span {
   background: var(--whiteColor);
 }
-.theme-dark .offcanvas-contact-info h4 {
+.theme-dark .offcanvas-Contact Us-info h4 {
   color: var(--primaryColor) !important;
 }
 .theme-dark .process-card .process-counter,
@@ -409,7 +409,7 @@ input:checked + .slider:before {
 .theme-dark .hero-wrap.hero-two .hero-content h1,
 .theme-dark .service-card-one,
 .theme-dark .responsive-navbar .offcanvas-header,
-.theme-dark .responsive-navbar .offcanvas-body .offcanvas-contact-info,
+.theme-dark .responsive-navbar .offcanvas-body .offcanvas-Contact Us-info,
 .theme-dark .responsive-navbar .offcanvas-body .others-option,
 .theme-dark .navbar-area.header-two,
 .theme-dark .navbar-area.header-three,
@@ -568,14 +568,14 @@ input:checked + .slider:before {
 .theme-dark .checkout-form .form-group textarea,
 .theme-dark .comment-form .form-group input,
 .theme-dark .comment-form .form-group textarea,
-.theme-dark #contactForm .form-group input,
-.theme-dark #contactForm .form-group textarea,
+.theme-dark #Contact UsForm .form-group input,
+.theme-dark #Contact UsForm .form-group textarea,
 .theme-dark .login-form-wrap .login-body .form-group input {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: var(--whiteColor);
 }
-.theme-dark input::-moz-placeholder, .theme-dark textarea::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group input::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group textarea::-moz-placeholder, .theme-dark #appointment-form .form-group input::-moz-placeholder, .theme-dark #appointment-form .form-group textarea::-moz-placeholder, .theme-dark #appointment-form .form-group select::-moz-placeholder, .theme-dark .faq-form .form-group input::-moz-placeholder, .theme-dark .faq-form .form-group textarea::-moz-placeholder, .theme-dark .faq-form .form-group select::-moz-placeholder, .theme-dark .login-form .form-group input::-moz-placeholder, .theme-dark .checkout-form .form-group input::-moz-placeholder, .theme-dark .checkout-form .form-group textarea::-moz-placeholder, .theme-dark .comment-form .form-group input::-moz-placeholder, .theme-dark .comment-form .form-group textarea::-moz-placeholder, .theme-dark #contactForm .form-group input::-moz-placeholder, .theme-dark #contactForm .form-group textarea::-moz-placeholder, .theme-dark .login-form-wrap .login-body .form-group input::-moz-placeholder {
+.theme-dark input::-moz-placeholder, .theme-dark textarea::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group input::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group textarea::-moz-placeholder, .theme-dark #appointment-form .form-group input::-moz-placeholder, .theme-dark #appointment-form .form-group textarea::-moz-placeholder, .theme-dark #appointment-form .form-group select::-moz-placeholder, .theme-dark .faq-form .form-group input::-moz-placeholder, .theme-dark .faq-form .form-group textarea::-moz-placeholder, .theme-dark .faq-form .form-group select::-moz-placeholder, .theme-dark .login-form .form-group input::-moz-placeholder, .theme-dark .checkout-form .form-group input::-moz-placeholder, .theme-dark .checkout-form .form-group textarea::-moz-placeholder, .theme-dark .comment-form .form-group input::-moz-placeholder, .theme-dark .comment-form .form-group textarea::-moz-placeholder, .theme-dark #Contact UsForm .form-group input::-moz-placeholder, .theme-dark #Contact UsForm .form-group textarea::-moz-placeholder, .theme-dark .login-form-wrap .login-body .form-group input::-moz-placeholder {
   color: var(--whiteColor);
   opacity: 0.8;
 }
@@ -594,8 +594,8 @@ input:checked + .slider:before {
 .theme-dark .checkout-form .form-group textarea::placeholder,
 .theme-dark .comment-form .form-group input::placeholder,
 .theme-dark .comment-form .form-group textarea::placeholder,
-.theme-dark #contactForm .form-group input::placeholder,
-.theme-dark #contactForm .form-group textarea::placeholder,
+.theme-dark #Contact UsForm .form-group input::placeholder,
+.theme-dark #Contact UsForm .form-group textarea::placeholder,
 .theme-dark .login-form-wrap .login-body .form-group input::placeholder {
   color: var(--whiteColor);
   opacity: 0.8;

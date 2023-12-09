@@ -613,17 +613,17 @@
     width: 100%;
     padding: 16px 20px 14px;
   }
-  .contact-item-wrap .contact-item {
+  .Contact Us-item-wrap .Contact Us-item {
     padding: 20px;
   }
-  .contact-item-wrap .contact-item .contact-icon {
+  .Contact Us-item-wrap .Contact Us-item .Contact Us-icon {
     width: 70px;
     height: 70px;
   }
-  .contact-item-wrap .contact-item .contact-icon i {
+  .Contact Us-item-wrap .Contact Us-item .Contact Us-icon i {
     font-size: 36px;
   }
-  .contact-item-wrap .contact-item .contact-info {
+  .Contact Us-item-wrap .Contact Us-item .Contact Us-info {
     width: calc(100% - 90px);
     margin-left: 20px;
   }
@@ -848,7 +848,7 @@
   .sidebar .sidebar-widget {
     padding: 25px;
   }
-  .sidebar .sidebar-widget.contact-widget {
+  .sidebar .sidebar-widget.Contact Us-widget {
     padding: 25px 25px 30px;
   }
   .error-wrap .error-content img {
@@ -1500,7 +1500,7 @@
     padding: 30px 38px 35px;
     margin-bottom: 30px;
   }
-  .sidebar .contact-widget {
+  .sidebar .Contact Us-widget {
     padding: 35px 38px 40px;
   }
   .service-wrap .container-fluid {
@@ -1672,7 +1672,7 @@
   .service-details-wrap .features-item-wrap .feature-item p {
     padding-right: 35px;
   }
-  .contact-item-wrap .contact-item {
+  .Contact Us-item-wrap .Contact Us-item {
     padding: 30px;
   }
   .single-product-img {

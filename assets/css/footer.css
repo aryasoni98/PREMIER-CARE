@@ -86,16 +86,16 @@
 .footer-wrap .footer-widget .social-profile li a:hover i {
   color: var(--whiteColor);
 }
-.footer-wrap .footer-widget .contact-info li {
+.footer-wrap .footer-widget .Contact Us-info li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 22px;
 }
-.footer-wrap .footer-widget .contact-info li:last-child {
+.footer-wrap .footer-widget .Contact Us-info li:last-child {
   margin-bottom: 0;
 }
-.footer-wrap .footer-widget .contact-info li span {
+.footer-wrap .footer-widget .Contact Us-info li span {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -108,24 +108,24 @@
   background: rgba(255, 255, 255, 0.06);
   box-shadow: 0px 0px 30px rgba(254, 74, 85, 0.09);
 }
-.footer-wrap .footer-widget .contact-info li span i {
+.footer-wrap .footer-widget .Contact Us-info li span i {
   color: var(--whiteColor);
   line-height: 0.8;
   display: block;
   margin: 0 auto;
   transition: var(--transition);
 }
-.footer-wrap .footer-widget .contact-info li p, .footer-wrap .footer-widget .contact-info li a {
+.footer-wrap .footer-widget .Contact Us-info li p, .footer-wrap .footer-widget .Contact Us-info li a {
   width: calc(100% - 53px);
   transition: var(--transition);
   display: block;
   margin: 0;
   color: var(--offwhiteColor);
 }
-.footer-wrap .footer-widget .contact-info li:hover span i {
+.footer-wrap .footer-widget .Contact Us-info li:hover span i {
   color: var(--primaryColor);
 }
-.footer-wrap .footer-widget .contact-info li:hover a, .footer-wrap .footer-widget .contact-info li:hover p {
+.footer-wrap .footer-widget .Contact Us-info li:hover a, .footer-wrap .footer-widget .Contact Us-info li:hover p {
   color: var(--primaryColor);
 }
 .footer-wrap .copyright-text {
@@ -157,10 +157,10 @@
   .footer-wrap .footer-widget .comp-desc {
     margin: 20px 0;
   }
-  .footer-wrap .footer-widget .contact-info li {
+  .footer-wrap .footer-widget .Contact Us-info li {
     margin-bottom: 10px;
   }
-  .footer-wrap .footer-widget .contact-info p, .footer-wrap .footer-widget .contact-info a {
+  .footer-wrap .footer-widget .Contact Us-info p, .footer-wrap .footer-widget .Contact Us-info a {
     font-size: 14px;
   }
   .footer-wrap .footer-widget .footer-menu li {
@@ -189,7 +189,7 @@
   .footer-wrap .footer-widget .footer-menu li {
     margin-bottom: 10px;
   }
-  .footer-wrap .footer-widget .contact-info li {
+  .footer-wrap .footer-widget .Contact Us-info li {
     margin-bottom: 18px;
   }
   .footer-wrap .copyright-text {

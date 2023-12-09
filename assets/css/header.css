@@ -404,19 +404,19 @@
 .responsive-navbar .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .accordion-item .accordion-button.active {
   color: var(--primaryColor);
 }
-.responsive-navbar .offcanvas-body .contact-info {
+.responsive-navbar .offcanvas-body .Contact Us-info {
   margin-top: 10px;
 }
-.responsive-navbar .offcanvas-body .contact-info li {
+.responsive-navbar .offcanvas-body .Contact Us-info li {
   position: relative;
   margin-bottom: 12px;
   color: var(--primaryColor);
   padding-left: 25px;
 }
-.responsive-navbar .offcanvas-body .contact-info li:last-child {
+.responsive-navbar .offcanvas-body .Contact Us-info li:last-child {
   margin-bottom: 0;
 }
-.responsive-navbar .offcanvas-body .contact-info li i {
+.responsive-navbar .offcanvas-body .Contact Us-info li i {
   position: absolute;
   top: 7px;
   left: 0;
@@ -426,7 +426,7 @@
   margin: 0 auto;
   color: var(--secondaryColor);
 }
-.responsive-navbar .offcanvas-body .contact-info li span {
+.responsive-navbar .offcanvas-body .Contact Us-info li span {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -438,19 +438,19 @@
   margin-right: 10px;
   transition: var(--transition);
 }
-.responsive-navbar .offcanvas-body .contact-info li p, .responsive-navbar .offcanvas-body .contact-info li a {
+.responsive-navbar .offcanvas-body .Contact Us-info li p, .responsive-navbar .offcanvas-body .Contact Us-info li a {
   color: var(--paraColor);
   transition: var(--transition);
   display: block;
   margin: 0;
 }
-.responsive-navbar .offcanvas-body .contact-info li a:hover {
+.responsive-navbar .offcanvas-body .Contact Us-info li a:hover {
   color: var(--secondaryColor);
 }
-.responsive-navbar .offcanvas-body .contact-info li:hover span {
+.responsive-navbar .offcanvas-body .Contact Us-info li:hover span {
   background-color: var(--secondaryColor);
 }
-.responsive-navbar .offcanvas-body .contact-info li:hover span i {
+.responsive-navbar .offcanvas-body .Contact Us-info li:hover span i {
   color: var(--whiteColor);
 }
 .responsive-navbar .offcanvas-body .social-profile {
@@ -505,7 +505,7 @@
   margin-bottom: 0;
 }
 
-.responsive-navbar .offcanvas-body .offcanvas-contact-info {
+.responsive-navbar .offcanvas-body .offcanvas-Contact Us-info {
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #ddd;
